@@ -8,20 +8,30 @@ import subprocess
 import os
 os.chdir("./Manual_Analysis")
 
-def fasta_creator(path_input, fasta_output_path):
+plus_list = [[24093, 137458, 205558], [24758, 138019, 206213]]
+minus_list = [[36163, 55775, 114388, 130854], [35313, 54697, 113357, 129878]]
 
-    data_df = pd.read_csv(path_input, sep=",", header=None)
+def comparative_csv(path_input, coor, plus_list, minus_list):
+    counter = 1
+    for value in pd.read_csv(path_input, sep=",", header=None).iterrows():
+        value = value[1]
 
-    fasta_df = pd.DataFrame()
-    for index, row in enumerate(data_df.iterrows()):
-        rec = SeqRecord(
-            Seq(row[5]),
-            id="Seq_" + str(index) + "_" + row[0] + "_" + row[4],  # Que tenga aqui el sentido es esencial para luego filtrarlos
-            description="Leishmania infantum " + row[4]
-        )
-        fasta_df.append(rec)
+        if coor == "start": 
+            coor2 = value[10]
+            plus_list = plus_list[0]
+            minus_list = minus_list[0]
+        elif coor == "end": 
+            coor2 = value[11]
+            plus_list = plus_list[1]
+            minus_list = minus_list[1]
 
-    SeqIO.write(fasta_df, fasta_output_path, "fasta")
-    print("\nFasta created at:", fasta_output_path)
-
-fasta_creator("RUN20_LinJ.01.csv", "RUN20_LinJ.01.fasta")
+        if value[1] == "LinJ.01" and value[14] == "plus":
+            if coor2 in plus_list:
+                print(f"{counter} sequence in PLUS found {coor.upper()} in {coor2}")
+                counter += 1
+        
+        elif value[1] == "LinJ.01" and value[14] == "minus":
+            if coor2 in minus_list:
+                print(f"{counter} sequence in MINUS found {coor.upper()} in {coor2}")
+                counter += 1
+comparative_csv("../Data/To_analyze/RUNS/run_19.csv", "start", plus_list, minus_list)
