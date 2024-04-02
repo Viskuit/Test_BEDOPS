@@ -57,7 +57,7 @@ if __name__ == "__main__":
         print(f"Analyzing row {index + 1} of {data.shape[0]}")
 
         fasta_creator(row.iloc[5], index, "./mySequence_2.fasta")  # Create the tmp fasta file
-        blastn_data = blastn_blaster("./mySequence_2.fasta", dict_path, 0, 1.0E-09)  # Run the blastn tool
+        blastn_data = blastn_blaster("./mySequence_2.fasta", dict_path, 0, 1.0E-20)  # Run the blastn tool
         
         if blastn_data.count("\n") > 2:  # If there is a match
             print("\t\tACCEPTED")
