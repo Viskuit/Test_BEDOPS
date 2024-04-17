@@ -1,5 +1,5 @@
 [] filtered_data
-    * Folder to place the results from the filtering methods.
+    * Folder to place the results from the filtering methods at least in 5 chromosome and e-value < 1E-09.
 
  --- sequences.csv
         * Output from `extract_seqs`.ipynb
