@@ -1,0 +1,293 @@
+---
+title: "ggbio_testing_karyotype"
+author: "R. F. Pacheco"
+date: "2024-04-26"
+output: 
+    html_document:
+        toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r Loading packages 1, message=FALSE, warning=FALSE}
+if (!require(BiocManager)) install.packages("BiocManager")
+
+
+
+installifnot <- function (pkg){
+  if (!require(pkg, character.only=T)){
+    BiocManager::install(pkg)
+  }
+}
+# BiocManager::install() # Update installed packages
+if (!require(tydiverse)) installed.packages("tydiverse")
+if (!(require(ggplot2))) installed.packages("ggplot2")
+if (!require(dplyr)) installed.packages("dplyr")
+
+# BiocManager
+installifnot("ggbio")
+installifnot("Biostrings")
+installifnot("GenomicRanges")
+```
+
+```{r Loading packages 2, message=FALSE, warning=FALSE}
+require(ggbio)
+require(ggplot2)
+require(Biostrings)
+require(GenomicRanges)
+require(tydiverse)
+require(dplyr)
+```
+
+# Load data
+
+First we need to load the data that we will use to plot the karyotype. We will use the following data:
+
+```{r loading data}
+# Load chromosome names and lengths:
+Linf_chr_lengths <- read.csv("./L_infantum_seq_lengths.csv", sep=",", header=TRUE)
+
+ # Load positive elements data:
+positives_elements <- read.csv("./for_ggbio/1.positives_testing_elements.csv", sep=",", header=FALSE) 
+
+# Load negative elements data:
+negative_elements <- read.csv("./for_ggbio/2.negatives_testing_elements.csv", sep=",", header=FALSE) 
+
+ # Load positive and negative elements with no difference markers:
+pos_and_neg_NODIFF <- read.csv("./for_ggbio/3.pos_and_neg_NODIFF_testing_elements.csv", sep=",", header=FALSE) 
+
+# Load positive and negative elements with difference markers:
+pos_and_neg_DIFF <- read.csv("./for_ggbio/4.pos_and_neg_DIFF_testing_elements.csv", sep=",", header=FALSE)
+
+# Load LmSIDER2a elements:
+LmSIDER2a <- read.csv("./for_ggbio/5.LmSIDER2a.csv", sep =",", header=FALSE)
+
+# Load LmSIDER2b elements:
+LmSIDER2b <- read.csv("./for_ggbio/6.LmSIDER2b.csv", sep=",", header=FALSE)
+
+# LmSIDER2a and LmSIDER2b elements with DIFF:
+LmSIDER2a_LmSIDER2b_NODIFF <- read.csv("./for_ggbio/7.LmSIDER2a_and_LmSIDER2b_NODIFF.csv", sep=",", header=FALSE)
+
+# LmSIDER2a and LmSIDER2b elements with DIFF:
+LmSIDER2a_LmSIDER2b_DIFF <- read.csv("./for_ggbio/8.LmSIDER2a_and_LmSIDER2b_DIFF.csv", sep=",", header=FALSE)
+
+# All elements:
+all_elements <- read.csv("./for_ggbio/9.pos_neg_LmSIDER2a_LmSIDER2b_DIFF.csv", sep=",", header=FALSE)
+```
+
+# Prepare and plot data
+
+First we need to prepare the data to be plotted. We will use the `GenomicRanges` package to prepare the data. Then we will use the `ggbio` package to plot the data.
+
+
+## Prepare `seqinfo` object
+
+This file has the chromosome names and lengths. We will use this information to create a `seqinfo` object that will be used to plot the data.
+
+```{r seqinfo object}
+seq_info <- Seqinfo(
+  seqnames = Linf_chr_lengths$seq_name,
+  seqlengths = Linf_chr_lengths$seq_length,
+  isCircular = rep(FALSE, nrow(Linf_chr_lengths)),
+  genome = rep("Linf", nrow(Linf_chr_lengths))
+  )
+```
+
+## All positive and negative elements
+
+Here we'll plot all the positives elements from the SIDER_RepetitiveSearcher software that passed the filter of being in more than 5 chromosomes and having a $evalue < 10^{-09}$. We'll also plot the negative elements that passed the same filter.
+
+### No difference markers
+
+First, all the elements together without markers.
+
+```{r positive and negative elements NO DIFF}
+
+GR_pos_and_neg <- GRanges(
+    seqnames = Rle(pos_and_neg_NODIFF$V1, rep(1, nrow(pos_and_neg_NODIFF))),
+    ranges = IRanges(
+        start = pos_and_neg_NODIFF$V2,
+        end = pos_and_neg_NODIFF$V3
+    ),
+    strand = rep("*", nrow(pos_and_neg_NODIFF))
+)
+
+seqinfo(GR_pos_and_neg) <- seq_info
+p1 <- GR_pos_and_neg
+
+autoplot(p1, layout = "karyogram", alpha=0.5)
+```
+
+
+### With difference markers
+
+```{r positive and negative elements DIFF}
+GR_pos_and_neg_DIFF <- GRanges(
+    seqnames = Rle(pos_and_neg_DIFF$V1, rep(1, nrow(pos_and_neg_DIFF))),
+    ranges = IRanges(
+        start = pos_and_neg_DIFF$V2,
+        end = pos_and_neg_DIFF$V3
+    ),
+    strand = rep("*", nrow(pos_and_neg_DIFF))
+)
+
+seqinfo(GR_pos_and_neg_DIFF) <- seq_info
+
+mcols(GR_pos_and_neg_DIFF) <- DataFrame(DIFF = pos_and_neg_DIFF$V5)
+p2 <- GR_pos_and_neg_DIFF
+```
+
+
+```{r plot positive and negative elements DIFF}
+autoplot(seqinfo(p2[p2$DIFF == "positive"]), layout="karyogram") +
+    layout_karyogram(p2[p2$DIFF == "positive"], geom="rect", ylim = c(0, 4), 
+                     aes(color = "positive", fill="positive")) +
+    layout_karyogram(p2[p2$DIFF == "negative"], geom="rect", ylim = c(5, 9), 
+                     aes(color = "negative", fill="negative")) +
+    scale_color_manual(name = "DIFF Category", 
+                       values = c("positive" = "blue", "negative" = "red"), 
+                       breaks = c("positive", "negative")) +
+    scale_fill_manual(name = "DIFF Category", 
+                      values = c("positive" = "blue", "negative" = "red"),
+                      breaks=c("positive", "negative"))
+
+```
+
+
+### Only positives
+
+```{r only positives}
+GR_positives <- GRanges(
+    seqnames = Rle(positives_elements$V1, rep(1, nrow(positives_elements))),
+    ranges = IRanges(
+        start = positives_elements$V2,
+        end = positives_elements$V3
+    ),
+    strand = rep("*", nrow(positives_elements))
+)
+
+seqinfo(GR_positives) <- seq_info
+p3 <- GR_positives
+```
+
+```{r ploting only positives}
+autoplot(p3, layout = "karyogram", alpha=0.3, aes(color="red")) +
+    scale_color_manual(values = alpha(c("red"),0.1), name="positive")
+
+```
+
+
+### Only negatives
+
+```{r only negatives}
+GR_negatives <- GRanges(
+    seqnames = Rle(negative_elements$V1, rep(1, nrow(negative_elements))),
+    ranges = IRanges(
+        start = negative_elements$V2,
+        end = negative_elements$V3
+    ),
+    strand = rep("*", nrow(negative_elements))
+)
+
+seqinfo(GR_negatives) <- seq_info
+p4 <- GR_negatives
+```
+
+```{r only negatives}
+autoplot(p4, layout = "karyogram", alpha=0.3, aes(color="blue")) +
+    scale_color_manual(values = alpha(c("blue"),0.1), name="negative")
+```
+
+## LmSIDER2a and LmSIDER2b elements
+
+### LmSIDER2a and LmSIDER2b elements with difference
+
+
+```{r LmSIDER2a and LmSIDER2b elements with difference}
+GR_LmSIDER2a_LmSIDER2b_DIFF <- GRanges(
+    seqnames = Rle(LmSIDER2a_LmSIDER2b_DIFF$V1, rep(1, nrow(LmSIDER2a_LmSIDER2b_DIFF))),
+    ranges = IRanges(
+        start = LmSIDER2a_LmSIDER2b_DIFF$V2,
+        end = LmSIDER2a_LmSIDER2b_DIFF$V3
+    ),
+    strand = rep("*", nrow(LmSIDER2a_LmSIDER2b_DIFF))
+)
+```
+
+
+```{r making them use common seqlevels}
+common_seqlevels <- intersect(seqlevels(GR_LmSIDER2a_LmSIDER2b_DIFF), seqlevels(seq_info))
+GR_LmSIDER2a_LmSIDER2b_DIFF <- keepSeqlevels(GR_LmSIDER2a_LmSIDER2b_DIFF, common_seqlevels, pruning.mode = "coarse")
+seq_info2 <- seq_info[seqlevels(GR_LmSIDER2a_LmSIDER2b_DIFF)]
+seqinfo(GR_LmSIDER2a_LmSIDER2b_DIFF) <- seq_info2
+
+mcols(GR_LmSIDER2a_LmSIDER2b_DIFF) <- DataFrame(DIFF = LmSIDER2a_LmSIDER2b_DIFF$V5)
+
+p5 <- GR_LmSIDER2a_LmSIDER2b_DIFF
+```
+
+
+```{r plot LmSIDER2a and LmSIDER2b elements with difference}
+autoplot(seqinfo(p5[p5$DIFF == "LmSIDER2a"]), layout="karyogram") +
+    layout_karyogram(p5[p5$DIFF == "LmSIDER2a"], geom="rect", ylim = c(0, 4), 
+                     aes(color = "LmSIDER2a", fill="LmSIDER2a")) +
+    layout_karyogram(p5[p5$DIFF == "LmSIDER2b"], geom="rect", ylim = c(5, 9), 
+                     aes(color = "LmSIDER2b", fill="LmSIDER2b")) +
+    scale_color_manual(name = "DIFF Category", 
+                       values = c("LmSIDER2a" = "green", "LmSIDER2b" = "pink"), 
+                       breaks = c("LmSIDER2a", "LmSIDER2b")) +
+    scale_fill_manual(name = "DIFF Category", 
+                      values = c("LmSIDER2a" = "green", "LmSIDER2b" = "pink"),
+                      breaks=c("LmSIDER2a", "LmSIDER2b"))
+```
+
+
+### LmSIDER and positive elements
+
+```{r LmSIDER and positive elements}
+GR_LmSIDER_and_pos <- GRanges(
+    seqnames = Rle(all_elements$V1, rep(1, nrow(all_elements))),
+    ranges = IRanges(
+        start = all_elements$V2,
+        end = all_elements$V3
+    ),
+    strand = rep("*", nrow(all_elements))
+)
+
+seqinfo(GR_LmSIDER_and_pos) <- seq_info
+
+mcols(GR_LmSIDER_and_pos) <- DataFrame(DIFF = all_elements$V5)
+
+p6 <- GR_LmSIDER_and_pos
+```
+
+
+
+```{r plot LmSIDER and positive elements}
+autoplot(seqinfo(p6[p6$DIFF == "positive"]), layout="karyogram") +
+    layout_karyogram(p6[p6$DIFF == "positive"], geom="rect", ylim = c(0, 2), 
+                     aes(color = "positive", fill="positive")) +
+    layout_karyogram(p6[p6$DIFF == "LmSIDER2a"], geom="rect", ylim = c(3, 6), 
+                     aes(color = "LmSIDER2a", fill="LmSIDER2a")) +
+    layout_karyogram(p6[p6$DIFF == "LmSIDER2b"], geom="rect", ylim = c(7, 9), 
+                     aes(color = "LmSIDER2b", fill="LmSIDER2b")) +
+    scale_color_manual(name = "DIFF Category", 
+                       values = c("positive" = "blue", "LmSIDER2a" = "green", "LmSIDER2b" = "pink"), 
+                       breaks = c("positive", "LmSIDER2a", "LmSIDER2b")) +
+    scale_fill_manual(name = "DIFF Category", 
+                      values = c("positive" = "blue", "LmSIDER2a" = "green", "LmSIDER2b" = "pink"),
+                      breaks=c("positive", "LmSIDER2a", "LmSIDER2b"))
+
+```
+
+
+
+
+
+
+
+
