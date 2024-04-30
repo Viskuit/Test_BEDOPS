@@ -28,6 +28,10 @@ Description of elements.
 []Subfamilies_test_1: [6]
     * Try to make a subfamily classification with elements >85% and alignment length of > 100 nt.
 
+[]8.R_ggbio
+    * Making karyotype plots from the project.
+    
+
 []Filter_Test_1
     * Created to filter the RUN20.csv data with different methods.
  --- filter_test_1.py ==> filtered data by 1.0E-09
