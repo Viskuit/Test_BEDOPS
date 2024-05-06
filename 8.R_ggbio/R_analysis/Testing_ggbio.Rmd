@@ -11,7 +11,7 @@ editor_options:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
-                      fig.width=15, fig.height=12)  # For ploting
+                      fig.width = 15, fig.height = 12)  # For ploting
 ```
 
 ```{r Loading packages 1, message=FALSE, warning=FALSE}
@@ -24,7 +24,6 @@ installifnot <- function (pkg){
   }
 }
 # Install packages
-if (!require(tydiverse)) installed.packages("tydiverse")
 if (!(require(ggplot2))) installed.packages("ggplot2")
 if (!require(dplyr)) installed.packages("dplyr")
 
@@ -39,7 +38,6 @@ require(ggbio)
 require(ggplot2)
 require(Biostrings)
 require(GenomicRanges)
-require(tydiverse)
 require(dplyr)
 ```
 
@@ -120,12 +118,17 @@ p1 <- GR_pos_and_neg
 ```
 
 ```{r plot: positive and negative elements NO DIFF}
-autoplot(p1, layout = "karyogram", alpha=0.5) +
+png("./img/1.karyogram_3009_elements.png")
+
+p1_plot <- autoplot(p1, layout = "karyogram", alpha=0.5) +
     labs(title = bquote(~ italic("L. infantum") ~ " JPCM5"),
          subtitle="Elements found with SIDER_RepetitiveSearcher", 
          caption = "CBM-CSIC Lab302") +
     theme(plot.title = element_text(hjust=0.5),
           plot.subtitle = element_text(hjust=0.5))
+
+print(p1_plot)
+dev.off()
 ```
 
 ### With difference markers
@@ -153,7 +156,9 @@ p2 <- GR_pos_and_neg_DIFF
 ```
 
 ```{r plot positive and negative elements DIFF}
-autoplot(seqinfo(p2[p2$DIFF == "positive"]), layout="karyogram") +
+png("./img/2.karyogram_POS_and_NEG_elements_DIFF.png", width = 1920, height = 1920, res = 300)
+
+p2_plto <- autoplot(seqinfo(p2[p2$DIFF == "positive"]), layout="karyogram") +
     layout_karyogram(p2[p2$DIFF == "positive"], geom="rect", ylim = c(0, 4), 
                      aes(color = "positive", fill="positive")) +
     layout_karyogram(p2[p2$DIFF == "negative"], geom="rect", ylim = c(5, 9), 
@@ -169,6 +174,9 @@ autoplot(seqinfo(p2[p2$DIFF == "positive"]), layout="karyogram") +
          caption = "CBM-CSIC Lab302") +
     theme(plot.title = element_text(hjust=0.5),
           plot.subtitle = element_text(hjust=0.5))
+
+print(p2_plto)
+dev.off()
 
 ```
 
@@ -191,13 +199,18 @@ p3 <- GR_positives
 ```
 
 ```{r ploting only positives}
-autoplot(p3, layout = "karyogram", alpha=0.3, aes(color="blue")) +
+png("./img/3.karyogram_positives.png", width = 1920, height = 1920, res = 300)
+
+p3_plot <- autoplot(p3, layout = "karyogram", alpha=0.3, aes(color="blue")) +
     scale_color_manual(values = alpha(c("blue"),0.1), name="positive") +
     labs(title = bquote(~ italic("L. infantum") ~ " JPCM5"),
          subtitle="Positive elements found with SIDER_RepetitiveSearcher", 
          caption = "CBM-CSIC Lab302") +
     theme(plot.title = element_text(hjust=0.5),
           plot.subtitle = element_text(hjust=0.5))
+
+print(p3_plot)
+dev.off()
 
 ```
 
@@ -220,13 +233,17 @@ p4 <- GR_negatives
 ```
 
 ```{r plot:only negatives}
-autoplot(p4, layout = "karyogram", alpha=0.3, aes(color="red")) +
+png("./img/4.karyogram_negatives.png", width = 1920, height = 1920, res = 300)
+p4_plot <- autoplot(p4, layout = "karyogram", alpha=0.3, aes(color="red")) +
     scale_color_manual(values = alpha(c("red"),0.1), name="negative") +
     labs(title = bquote(~ italic("L. infantum") ~ " JPCM5"),
          subtitle="Negative elements found with SIDER_RepetitiveSearcher", 
          caption = "CBM-CSIC Lab302") +
     theme(plot.title = element_text(hjust=0.5),
           plot.subtitle = element_text(hjust=0.5))
+
+print(p4_plot)
+dev.off()
 ```
 
 ## LmSIDER2a and LmSIDER2b elements
@@ -266,7 +283,8 @@ p5 <- GR_LmSIDER2a_LmSIDER2b_DIFF
 ```
 
 ```{r plot LmSIDER2a and LmSIDER2b elements with difference}
-autoplot(seqinfo(p5[p5$DIFF == "LmSIDER2a"]), layout="karyogram") +
+png("./img/5.karyogram_LmSIDER2a_LmSIDER2b_DIFF.png", width = 1920, height = 1920, res = 300)
+p5_plot <- autoplot(seqinfo(p5[p5$DIFF == "LmSIDER2a"]), layout="karyogram") +
     layout_karyogram(p5[p5$DIFF == "LmSIDER2a"], geom="rect", ylim = c(0, 4), 
                      aes(color = "LmSIDER2a", fill="LmSIDER2a")) +
     layout_karyogram(p5[p5$DIFF == "LmSIDER2b"], geom="rect", ylim = c(5, 9), 
@@ -283,6 +301,8 @@ autoplot(seqinfo(p5[p5$DIFF == "LmSIDER2a"]), layout="karyogram") +
     theme(plot.title = element_text(hjust=0.5),
           plot.subtitle = element_text(hjust=0.5))
 
+print(p5_plot)
+dev.off()
 ```
 
 ### LmSIDER2 and positive elements
@@ -305,7 +325,8 @@ p6 <- GR_LmSIDER_and_pos
 ```
 
 ```{r plot: LmSIDER and positive elements, fig.width=20, fig.height=15, dpi=300}
-autoplot(seqinfo(p6[p6$DIFF == "positive"]), layout="karyogram") +
+png("./img/6.karyogram_LmSIDER_and_pos.png", width = 1920, height = 1080, res=100)
+p6_plot <- autoplot(seqinfo(p6[p6$DIFF == "positive"]), layout="karyogram") +
     layout_karyogram(p6[p6$DIFF == "positive"], geom="rect", ylim = c(0, 2), 
                      aes(color = "positive", fill="positive")) +
     layout_karyogram(p6[p6$DIFF == "LmSIDER2a"], geom="rect", ylim = c(3, 6), 
@@ -323,5 +344,8 @@ autoplot(seqinfo(p6[p6$DIFF == "positive"]), layout="karyogram") +
          caption = "CBM-CSIC Lab302") +
     theme(plot.title = element_text(hjust=0.5),
           plot.subtitle = element_text(hjust=0.5))
+
+print(p6_plot)
+dev.off()
 
 ```
