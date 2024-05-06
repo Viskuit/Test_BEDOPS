@@ -118,7 +118,7 @@ p1 <- GR_pos_and_neg
 ```
 
 ```{r plot: positive and negative elements NO DIFF}
-png("./img/1.karyogram_3009_elements.png")
+png("./img/1.karyogram_3009_elements.png", width = 1920, height = 1080, res=100)
 
 p1_plot <- autoplot(p1, layout = "karyogram", alpha=0.5) +
     labs(title = bquote(~ italic("L. infantum") ~ " JPCM5"),
@@ -156,7 +156,7 @@ p2 <- GR_pos_and_neg_DIFF
 ```
 
 ```{r plot positive and negative elements DIFF}
-png("./img/2.karyogram_POS_and_NEG_elements_DIFF.png", width = 1920, height = 1920, res = 300)
+png("./img/2.karyogram_POS_and_NEG_elements_DIFF.png", width = 1920, height = 1080, res=100)
 
 p2_plto <- autoplot(seqinfo(p2[p2$DIFF == "positive"]), layout="karyogram") +
     layout_karyogram(p2[p2$DIFF == "positive"], geom="rect", ylim = c(0, 4), 
@@ -199,7 +199,7 @@ p3 <- GR_positives
 ```
 
 ```{r ploting only positives}
-png("./img/3.karyogram_positives.png", width = 1920, height = 1920, res = 300)
+png("./img/3.karyogram_positives.png", width = 1920, height = 1080, res=100)
 
 p3_plot <- autoplot(p3, layout = "karyogram", alpha=0.3, aes(color="blue")) +
     scale_color_manual(values = alpha(c("blue"),0.1), name="positive") +
@@ -233,7 +233,7 @@ p4 <- GR_negatives
 ```
 
 ```{r plot:only negatives}
-png("./img/4.karyogram_negatives.png", width = 1920, height = 1920, res = 300)
+png("./img/4.karyogram_negatives.png", width = 1920, height = 1080, res=100)
 p4_plot <- autoplot(p4, layout = "karyogram", alpha=0.3, aes(color="red")) +
     scale_color_manual(values = alpha(c("red"),0.1), name="negative") +
     labs(title = bquote(~ italic("L. infantum") ~ " JPCM5"),
@@ -283,7 +283,7 @@ p5 <- GR_LmSIDER2a_LmSIDER2b_DIFF
 ```
 
 ```{r plot LmSIDER2a and LmSIDER2b elements with difference}
-png("./img/5.karyogram_LmSIDER2a_LmSIDER2b_DIFF.png", width = 1920, height = 1920, res = 300)
+png("./img/5.karyogram_LmSIDER2a_LmSIDER2b_DIFF.png", width = 1920, height = 1080, res=100)
 p5_plot <- autoplot(seqinfo(p5[p5$DIFF == "LmSIDER2a"]), layout="karyogram") +
     layout_karyogram(p5[p5$DIFF == "LmSIDER2a"], geom="rect", ylim = c(0, 4), 
                      aes(color = "LmSIDER2a", fill="LmSIDER2a")) +
@@ -347,5 +347,9 @@ p6_plot <- autoplot(seqinfo(p6[p6$DIFF == "positive"]), layout="karyogram") +
 
 print(p6_plot)
 dev.off()
+
+```
+
+```{r}
 
 ```
