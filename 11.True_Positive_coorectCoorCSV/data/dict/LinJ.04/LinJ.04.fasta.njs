@@ -6,7 +6,7 @@
   "description": "./data/dict/LinJ.04/LinJ.04.fasta",
   "number-of-letters": 466507,
   "number-of-sequences": 1,
-  "last-updated": "2024-05-29T19:55:00",
+  "last-updated": "2024-05-29T23:23:00",
   "number-of-volumes": 1,
   "bytes-total": 166050,
   "bytes-to-cache": 116764,

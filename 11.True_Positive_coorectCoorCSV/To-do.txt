@@ -2,4 +2,4 @@ LinJ.04
     - 4-302589r to chr 32
 LinJ.32
     - 21-8C-644995d ==> to chr 08
-    - 21-8C-644995d ==> stays, is one sequence greater. Replace for new version.
+    - 21B-534180r ==> stays, is one nucleotide greater. Replace for new version.
