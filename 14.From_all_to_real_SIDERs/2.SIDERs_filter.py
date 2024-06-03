@@ -73,6 +73,6 @@ if __name__ == "__main__":
     print(f"The percentage of not matches is: {round(not_matches.sum() / data.shape[0] * 100, 2)}%")
 
     yes_data = data[matches]
-    yes_data.to_csv(os.path.join(args.output_dir, "positives_testing_elements.csv"), index=False, header=False)
+    yes_data.to_csv(os.path.join(args.output_dir, "positives_testing_elements.csv"), index=False, header=True)
     no_data = data[~matches]
-    no_data.to_csv(os.path.join(args.output_dir, "negatives_testing_elements.csv"), index=False, header=False)
+    no_data.to_csv(os.path.join(args.output_dir, "negatives_testing_elements.csv"), index=False, header=True)
