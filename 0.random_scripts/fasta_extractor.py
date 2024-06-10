@@ -22,7 +22,7 @@ def fasta_extractor(pathfile, outfile, extract_list):
     """
     with open(outfile, "w") as out_file:
         # Remember "enumerate" starts in "1"
-        for count, fasta in enumerate(SeqIO.parse(open(pathfile), "fasta"), 1):  # from Bio import SeqIO
+        for count, fasta in enumerate(SeqIO.parse(open(pathfile), "fasta"), start=0):  # from Bio import SeqIO
             # name, sequence = fasta.id, str(fasta.seq)
             if count in extract_list:
                 SeqIO.write(fasta, out_file, "fasta")
