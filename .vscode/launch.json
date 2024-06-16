@@ -9,7 +9,11 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "args": ["-f", "~/Documents/Work_CBMSO/Leish_Data_Analysis/17.Real_coordinates_method/data/consensus+LmSIDER2A+B/ALL_DATA.csv",
+                     "-d", "~/Documents/Work_CBMSO/Leish_Data_Analysis/0.Data/genome/L_infantum/TriTrypDB-67_LinfantumJPCM5_Genome.fasta",
+                     "-o", "~/Documents/Work_CBMSO/Leish_Data_Analysis/17.Real_coordinates_method/final_test"
+                    ]
         }
     ]
 }
