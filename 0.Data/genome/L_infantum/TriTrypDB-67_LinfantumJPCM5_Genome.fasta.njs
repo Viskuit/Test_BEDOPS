@@ -6,7 +6,7 @@
   "description": "../0.Data/genome/L_infantum/TriTrypDB-67_LinfantumJPCM5_Genome.fasta",
   "number-of-letters": 32803248,
   "number-of-sequences": 36,
-  "last-updated": "2024-06-12T13:15:00",
+  "last-updated": "2024-06-16T19:39:00",
   "number-of-volumes": 1,
   "bytes-total": 8256824,
   "bytes-to-cache": 8201453,
