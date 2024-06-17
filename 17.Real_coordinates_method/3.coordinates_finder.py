@@ -82,7 +82,7 @@ if __name__ == '__main__':
     # 3) Create main loop
     for index, row in data.iterrows():
         # 3.1) Prepare the query data 
-        name_id = f"{row['sseqid']}_{row['sstrand']}_{row['sstart']}-{row['send']}:"  # Create the name_id with the original info of the seq.
+        name_id = f"{row['sseqid']}_{row['sstrand']}_{row['sstart']}-{row['send']}"  # Create the name_id with the original info of the seq.
         seq = row['sseq']
         query = f"<(echo -e '>{name_id}\n{seq}')"  # Create the query with the name_id and the seq in a bash tmp file
         start_coor = row['sstart']  # Get the start coordinate for later
