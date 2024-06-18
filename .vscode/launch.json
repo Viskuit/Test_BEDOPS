@@ -11,10 +11,10 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
-            "args": ["-f", "./old_data/fragm_data_marked.json",
-                     "-o", "./new_data",
-                     "-db", "../0.Data/genome/L_infantum/TriTrypDB-67_LinfantumJPCM5_Genome.fasta",
-                     "-ndb", "./old_data/old_negative_data_691_elem.csv"
+            "args": ["-f1", "./new_data/negative_database.fasta",
+                     "-f2", "./other_data/All_hallmarks.fasta",
+                     "-f3", "./new_data/negative_database.csv",
+                     "-o", "./2.Hallmarks_vs_NegData"
                     ]
         }
     ]
