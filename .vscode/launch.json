@@ -11,9 +11,10 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
-            "args": ["-f", "./data/seqs_real_coor.json",
-                     "-o", "./final_test",
-                     "-db", "../0.Data/genome/L_infantum/TriTrypDB-67_LinfantumJPCM5_Genome.fasta"
+            "args": ["-f", "./old_data/fragm_data_marked.json",
+                     "-o", "./new_data",
+                     "-db", "../0.Data/genome/L_infantum/TriTrypDB-67_LinfantumJPCM5_Genome.fasta",
+                     "-ndb", "./old_data/old_negative_data_691_elem.csv"
                     ]
         }
     ]
