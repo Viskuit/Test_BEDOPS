@@ -11,10 +11,9 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
-            "args": ["-f1", "./new_data/negative_database.fasta",
-                     "-f2", "./other_data/All_hallmarks.fasta",
-                     "-f3", "./new_data/negative_database.csv",
-                     "-o", "./2.Hallmarks_vs_NegData"
+            "args": ["-f", "./data/positive_database.csv",
+                     "-o", "./",
+                     "-n", "src"
                     ]
         }
     ]
