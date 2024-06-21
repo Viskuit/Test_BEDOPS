@@ -1,7 +1,4 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -11,9 +8,9 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
-            "args": ["-f", "./data/positive_database.csv",
-                     "-o", "./",
-                     "-n", "src"
+            "args": ["-p", "./subfamilies_classification/",
+                     "-csv", "./data/positive_database.csv",
+                     "-o", "./subfamilies_classification_global",
                     ]
         }
     ]
