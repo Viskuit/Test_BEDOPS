@@ -8,7 +8,7 @@ import re
 from Bio import Seq
 from Bio.SeqRecord import SeqRecord
 
-from subfamilies_global_functions import blastn_dic, blastn_blaster, fasta_creator, save_sequences_to_csv_pandas, find_maximal_sets, count_sequences, join_conflicted_sequences, subfamily_naming
+from subfamilies_global_functions import blastn_dic, blastn_blaster, fasta_creator, save_sequences_to_csv_pandas, find_maximal_sets, count_sequences, join_conflicted_sequences, subfamily_naming, numbering_dict
 
 # =============================================================================
 # Defining arparse arguments
@@ -69,7 +69,8 @@ def grouping_subfamily(input_df, path_output, naming):
         # Get the unique values from the dictionary
         unique_values = find_maximal_sets(sequences=unique_values)  # Find the maximal sets. # Find the maximal sets. If there's a list [1, 2] and a list [1, 2, 3], it will remove the first one.
         unique_values = join_conflicted_sequences(sequences=unique_values)  # Join the conflicted sequences. # Join the conflicted sequences. If there's a list [1, 2] and a list [2, 3], it will join them in a list [1, 2, 3]
-        named_elements = subfamily_naming(chromosome=index, naming=naming, sequences=unique_values)
+        numering_dict = numbering_dict(list_array=unique_values)
+        named_elements = subfamily_naming(chromosome=index, naming=naming, sequences=unique_values, naming_dict=numering_dict)
         counters = count_sequences(sequences=unique_values)
 
         if len(counters) > 0:

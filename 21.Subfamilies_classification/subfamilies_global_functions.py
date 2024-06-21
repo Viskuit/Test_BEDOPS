@@ -6,6 +6,7 @@ import pandas as pd
 import subprocess
 import os
 import re
+import string  # For the subfamily_naming function
 
 from Bio import SeqIO
 from Bio.Seq import Seq
@@ -133,26 +134,43 @@ def count_sequences(sequences):
     return multiple_occurrences
 
 # -----------------------------------------------------------------------------
-def subfamily_naming(chromosome, naming, sequences):
+def numbering_dict(list_array):
+    new_list = [name for element in list_array for name in element]
+    new_list = sorted(new_list, key=lambda x: int(re.search(r'_(\d+)_', x).group(1)))
+    counter = 1
+    dict_naming = {}
+    for name in new_list:
+        dict_naming[name] = counter
+        counter += 1
+    return dict_naming
+
+def generate_sequence():
+    letters = string.ascii_uppercase
+    single_letter_sequences = list(letters) # Generate single letter sequences
+    double_letter_sequences = [a + b for a in letters for b in letters] # Generate double letter sequences
+    triple_letter_sequences = [a + b + c for a in letters for b in letters for c in letters] # Generate triple letter sequences
+    all_sequences = single_letter_sequences + double_letter_sequences + triple_letter_sequences # Combine all sequences
+    return all_sequences
+
+def subfamily_naming(chromosome, naming, sequences, naming_dict):
+    abc_seq = generate_sequence()  # it will generate from A to ZZZ
+    letter_slider = 0
     named_elements = []
-    orphan_counter_id = 10
-    subfamily_abc_counter_id = "A"
-    for index, seqs in enumerate(sequences):  # selecting list
+    # subfamily_abc_counter_id = "A"
+    for _, seqs in enumerate(sequences):  # selecting list
         if len(seqs) > 1:
             subfamily = []
-            subfamily_counter_member_id = 10
-            for index2, element in enumerate(seqs):  # selecting element inside a list.
+            for _, element in enumerate(seqs):  # selecting element inside a list.
                 chr_id = re.search(r"\d+", chromosome).group(0)
-                subfamily.append(f"{naming}_c{chr_id}.{subfamily_counter_member_id}{subfamily_abc_counter_id}")
-                subfamily_counter_member_id += 10
-            subfamily_abc_counter_id = chr(ord(subfamily_abc_counter_id) + 1)
-
-
+                number_id = naming_dict[element]  # get the correct number id
+                number_id = str(number_id)[::-1].zfill(len(str(number_id)) + 1)[::-1]  # fill the number with 0
+                subfamily.append(f"{naming}_c{chr_id}.{number_id}{abc_seq[letter_slider]}")
+            letter_slider += 1
             named_elements.append(subfamily)
         else: # if len(seqs) == 1
             chr_id = re.search(r"\d+", chromosome).group(0)
-            named_elements.append([f"{naming}_c{chr_id}.{orphan_counter_id}"])
-            orphan_counter_id += 10
+            number_id = naming_dict[seqs[0]]  # get the correct number id
+            number_id = str(number_id)[::-1].zfill(len(str(number_id)) + 1)[::-1]  # fill the number with 0
+            named_elements.append([f"{naming}_c{chr_id}.{number_id}"])
 
     return named_elements
-
