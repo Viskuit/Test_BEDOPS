@@ -52,7 +52,7 @@ if __name__ == '__main__':
                 'score': '.',
                 'strand': row['sstrand'] if args.strand == True else '.',  # If the strand is False, then the strand will be '.'
                 'frame': '.',
-                'attribute': row[args.attribute] if args.attribute != '.' else '.'  # Checking args input.
+                'attribute': f'ID={row[args.attribute]}' if args.attribute != '.' else '.'  # Checking args input.
             }
         )
 
