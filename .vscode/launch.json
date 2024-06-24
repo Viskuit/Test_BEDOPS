@@ -8,9 +8,9 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
-            "args": ["-p", "./subfamilies_classification/",
-                     "-csv", "./data/positive_database.csv",
-                     "-o", "./subfamilies_classification_global",
+            "args": [
+                     "-csv", "./data_named/positive_data_named.csv",
+                     "-o", ".",
                     ]
         }
     ]
