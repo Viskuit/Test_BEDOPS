@@ -9,8 +9,9 @@
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
             "args": [
-                     "-csv", "./data_named/positive_data_named.csv",
-                     "-o", ".",
+                     "-csv", "./negative_noCDS_relationship/negative_noCDS_relationship.csv",
+                     "-csv2", "./negative_noCDS_relationship/negative_database_nomatch.csv",
+                     "-o", "./negative_noCDS_relationship"
                     ]
         }
     ]
