@@ -6,7 +6,7 @@
   "description": "./data/consensus+LmSIDER2A+B/neg_data_dict/negatives_testing_elements.fasta",
   "number-of-letters": 510312,
   "number-of-sequences": 714,
-  "last-updated": "2024-06-09T14:07:00",
+  "last-updated": "2024-08-12T12:36:00",
   "number-of-volumes": 1,
   "bytes-total": 331503,
   "bytes-to-cache": 136789,
