@@ -9,10 +9,9 @@
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
             "args": [
-                     "-f", "./old_data/fragm_data_marked.json",
-                     "-o", "./new_data/",
-                     "-db", "./new_data/blastn_dict/TriTrypDB-67_LinfantumJPCM5_Genome.fasta",
-                     "-ndb", "./old_data/neg_data_corrected.csv"
+                     "-f", "./data/consensus+LmSIDER2A+B/positive_data+recaught.csv",
+                     "-d", "../0.Data/genome/L_infantum/TriTrypDB-67_LinfantumJPCM5_Genome.fasta",
+                     "-o", "./final_test2"
                     ]
         }
     ]

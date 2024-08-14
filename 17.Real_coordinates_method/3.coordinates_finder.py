@@ -30,6 +30,7 @@ def blastn_dic(path_input, path_output):
     # "parse_seqids" is used to keep the sequence ID in the output.
     cmd = f"makeblastdb -in {path_input} -dbtype nucl -parse_seqids -out {path_output}"
     subprocess.run(cmd, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    
 
 def blastn_blaster(query_path, dict_path):
     cmd = "blastn -word_size 11" \
@@ -120,8 +121,9 @@ if __name__ == '__main__':
 
         # 3.5) Get the new coordinates
         for _, row in bedops_df.iterrows():
-            new_start = start_coor + row['qstart']  # Get the new start coordinate by adding the start_coor and the qstart
-            new_end = start_coor + row['qend']  # Get the new end coordinate by adding the start_coor and the qend. Important to be the "start" and not the "end"
+            # In the next steps it's important to add "-1" because if the bedops starts in "1" it means the start_coord will stay the same, so instead of adding +1 it should add +0. And we get that by adding -1
+            new_start = start_coor + row['qstart'] - 1  # Get the new start coordinate by adding the start_coor and the qstart
+            new_end = start_coor + row['qend'] - 1  # Get the new end coordinate by adding the start_coor and the qend. Important to be the "start" and not the "end"
             if abs(new_end - new_start) + 1 > 100:
                 main_dict[name_id].append([name_chr, strand_seq, new_start, new_end])  # Append the new coordinates to the main_dict
             else:  # If the length is less than 100
