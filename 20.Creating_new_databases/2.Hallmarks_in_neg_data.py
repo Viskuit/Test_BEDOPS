@@ -14,7 +14,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='Check fasta hits in the a CSV data base.')
     parser.add_argument('-f1', '--fasta1', type=str, required=True, help='Path to the CSV file in fasta format where we want to search.')
     parser.add_argument('-f2', '--fasta2', type=str, required=True, help='Path to the fasta file with the Hallmarks to search.')
-    parser.add_argument('-f3', '--csv', type=str, required=True, help='Path to the CSV file with the data base to search, same as file2 but in csv format.')
+    parser.add_argument('-f3', '--csv', type=str, required=True, help='Path to the CSV file with the data base to search, same as --fasta1 but in csv format.')
     parser.add_argument('-o', '--output', type=str, required=True, help='Path to the output directory to save the data.')
     # parser.add_argument('-db', '--database', type=str, required=True, help='Path to the genome fasta file.')
     return parser.parse_args()
