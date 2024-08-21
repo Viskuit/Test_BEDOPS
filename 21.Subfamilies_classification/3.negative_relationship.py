@@ -56,8 +56,8 @@ if __name__ == '__main__':
     # Create a dictionary with the sequences In their respective relationships
     main_dict = {}
     for query in blastn_df['qseqid'].unique():
-        values = blastn_df[blastn_df['qseqid'] == query].loc[:, [
-                                                                    'sseqid']].values.flatten().tolist()  # For each query, get the values from 'sseqid' that match with that query.
+        values = blastn_df[blastn_df['qseqid'] == query].loc[:, 
+                                                             ['sseqid']].values.flatten().tolist()  # For each query, get the values from 'sseqid' that match with that query.
         values = list(set(values))  # Remove duplicates
         values = sorted(values)
         main_dict[query] = values
