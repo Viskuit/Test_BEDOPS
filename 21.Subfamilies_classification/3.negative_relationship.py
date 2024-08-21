@@ -12,8 +12,8 @@ from subfamilies_global_functions import blastn_dic, fasta_creator, blastn_blast
 # Defining "argparse" arguments
 # =============================================================================
 def parse_arguments():
-    parser = argparse.ArgumentParser(description='Make the relationship between the negative database')
-    parser.add_argument('-csv', '--csv_file', type=str, required=True, help='Path to the negative CSV data SIDER file')
+    parser = argparse.ArgumentParser(description='Make the relationship between the negative database that does not have CDS match')
+    parser.add_argument('-csv', '--csv_file', type=str, required=True, help='Path to the negative CSV data SIDER file that does not have CDS match')
     parser.add_argument('-o', '--output', type=str, required=True, help='Path to the output directory to save te data')
     return parser.parse_args()
 
