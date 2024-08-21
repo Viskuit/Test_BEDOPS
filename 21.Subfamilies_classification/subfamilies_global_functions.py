@@ -41,6 +41,27 @@ def blastn_blaster(query, path_genome, identity):
 
     return data_df  # I only need to return the data, no need to transform it into a pandas dataframe since I want to check the number of lines with the line separator '\n'
 
+# -----------------------------------------------------------------------------
+def blastn_blaster2(query, path_genome, identity):
+    cmd = (
+        f'blastn -word_size 11 '
+        f'-query {query} '
+        f'-db {path_genome} '
+        f'-perc_identity {identity} '
+        f"-outfmt '10 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen'"
+    )
+    data = subprocess.run(cmd, shell=True, capture_output=True, text=True, universal_newlines=True, executable='/usr/bin/bash')
+    data = data.stdout
+    data_df = pd.DataFrame(
+        [x.split(',') for x in data.split('\n') if x],
+        columns=['qseqid', 'sseqid', 'pident', 'length', 'mismatch', 'gapopen', 'qstart', 'qend', 'sstart', 'send', 'evalue', 'bitscore', 'qlen', 'slen'] 
+    )
+    if not data_df.empty:
+        data_df[['pident', 'length', 'mismatch', 'gapopen', 'qstart', 'qend', 'sstart', 'send', 'evalue', 'bitscore', 'qlen', 'slen']] = data_df[['pident', 'length', 'mismatch', 'gapopen', 'qstart', 'qend', 'sstart', 'send', 'evalue', 'bitscore', 'qlen', 'slen']].apply(pd.to_numeric)  # Convert to numeric
+    else:  # If empty, return an empty dataframe
+        return pd.DataFrame()
+
+    return data_df  # I only need to return the data, no need to transform it into a pandas dataframe since I want to check the number of lines with the line separator '\n'
 
 # -----------------------------------------------------------------------------
 # Get fasta f# Define fasta_creator file from the first chromosome

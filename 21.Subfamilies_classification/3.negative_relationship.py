@@ -4,7 +4,7 @@ import pandas as pd
 import os
 import re
 
-from subfamilies_global_functions import blastn_dic, fasta_creator, blastn_blaster, find_maximal_sets, \
+from subfamilies_global_functions import blastn_dic, fasta_creator, blastn_blaster2, find_maximal_sets, \
     join_conflicted_sequences, count_sequences, save_sequences_to_csv_pandas
 
 
@@ -48,7 +48,7 @@ if __name__ == '__main__':
     blastn_dic(path_input=path_dict_file, path_output=path_dict_file)
 
     # BLASTN
-    blastn_df = blastn_blaster(query=path_dict_file, path_genome=path_dict_file, identity=85)
+    blastn_df = blastn_blaster2(query=path_dict_file, path_genome=path_dict_file, identity=85)
 
     # Filter by length
     blastn_df = blastn_df[blastn_df['length'] > 100].copy()

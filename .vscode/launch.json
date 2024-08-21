@@ -9,9 +9,8 @@
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
             "args": [
-                     "-f", "./data/consensus+LmSIDER2A+B/positive_data+recaught.csv",
-                     "-d", "../0.Data/genome/L_infantum/TriTrypDB-67_LinfantumJPCM5_Genome.fasta",
-                     "-o", "./final_test2"
+                     "-csv", "./data/negative_database_nomatch.csv",
+                     "-o", "./"
                     ]
         }
     ]
