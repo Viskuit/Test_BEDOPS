@@ -6,7 +6,7 @@
   "description": "./negative_noCDS_relationship/blast_dict/negative_noCDS.fasta",
   "number-of-letters": 333637,
   "number-of-sequences": 723,
-  "last-updated": "2024-08-21T12:28:00",
+  "last-updated": "2024-08-23T14:06:00",
   "number-of-volumes": 1,
   "bytes-total": 271339,
   "bytes-to-cache": 92708,

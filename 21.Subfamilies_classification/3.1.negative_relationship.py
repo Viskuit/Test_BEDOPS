@@ -3,9 +3,10 @@ import argparse
 import pandas as pd
 import os
 import re
+import string
 
 from subfamilies_global_functions import blastn_dic, fasta_creator, blastn_blaster2, find_maximal_sets, \
-    join_conflicted_sequences, count_sequences, save_sequences_to_csv_pandas
+    join_conflicted_sequences, count_sequences, save_sequences_to_csv_pandas, numbering_dict
 
 
 # =============================================================================
@@ -21,7 +22,36 @@ def parse_arguments():
 # =============================================================================
 # Defining needed functions
 # =============================================================================
+def generate_sequence():
+    letters = string.ascii_uppercase
+    single_letter_sequences = list(letters) # Generate single letter sequences
+    double_letter_sequences = [a + b for a in letters for b in letters] # Generate double letter sequences
+    triple_letter_sequences = [a + b + c for a in letters for b in letters for c in letters] # Generate triple letter sequences
+    all_sequences = single_letter_sequences + double_letter_sequences + triple_letter_sequences # Combine all sequences
+    return all_sequences
 
+def subfamily_naming_mod(naming, sequences, naming_dict):
+    abc_seq = generate_sequence()  # it will generate from A to ZZZ
+    letter_slider = 0
+    named_elements = []
+    # subfamily_abc_counter_id = "A"
+    for _, seqs in enumerate(sequences):  # selecting list
+        if len(seqs) > 1:
+            subfamily = []
+            for _, element in enumerate(seqs):  # selecting element inside a list.
+                chr_id = element.split('_')[2].split(".")[1] # get the chromosome id
+                number_id = naming_dict[element]  # get the correct number id
+                number_id = str(number_id)[::-1].zfill(len(str(number_id)) + 1)[::-1]  # fill the number with 0
+                subfamily.append(f"{naming}_c{chr_id}.{number_id}{abc_seq[letter_slider]}")
+            letter_slider += 1
+            named_elements.append(subfamily)
+        else: # if len(seqs) == 1
+            chr_id = chr_id = seqs[0].split('_')[2].split(".")[1] # get the chromosome id
+            number_id = naming_dict[seqs[0]]  # get the correct number id
+            number_id = str(number_id)[::-1].zfill(len(str(number_id)) + 1)[::-1]  # fill the number with 0
+            named_elements.append([f"{naming}_c{chr_id}.{number_id}"])
+
+    return named_elements
 
 # =============================================================================
 # Main function
@@ -58,10 +88,10 @@ if __name__ == '__main__':
 
     # Create a dictionary with the sequences In their respective relationships
     main_dict = {}
-    for subject in blastn_df['sseqid'].unique():
+    for subject in sorted(list(blastn_df['sseqid'].unique()), key=lambda x: int(x.split('_')[1])):
         values = blastn_df.loc[
             blastn_df['sseqid'] == subject,
-            ['sseqid']
+            ['qseqid']
             ].values.flatten().tolist()  # For each subject, get the values from 'qseqid' that match with that subject.
             
         values = list(set(values))  # Remove duplicates
@@ -79,6 +109,10 @@ if __name__ == '__main__':
 
     # Now join the conflicted values. When there are two sets that share a value, join them
     unique_values = join_conflicted_sequences(sequences=unique_values)
+    
+    numering_dict = numbering_dict(list_array=unique_values)
+    named_elements = subfamily_naming_mod(naming="rejected_noCDS", sequences=unique_values, naming_dict=numering_dict)
+    merge_naming =[[f"{x}|{y}" for x, y in zip(sublist1, sublist2)] for sublist1, sublist2 in zip(unique_values, named_elements)]
 
     # Make the warning for repeated elements inside a set, if it appears more than once.
     repeated_elements = []
@@ -89,4 +123,7 @@ if __name__ == '__main__':
         repeated_elements.append(combined_list)  # Append the sequences that appear more than once
     save_sequences_to_csv_pandas(data=unique_values,
                                  filename=os.path.join(path_working_folder, 'negative_noCDS_relationship.csv'))
+    save_sequences_to_csv_pandas(data=merge_naming,
+                                 filename=os.path.join(path_working_folder, 'negative_noCDS_relationship_named.csv')
+    )
     print(f'{len(repeated_elements)} repeated values: {repeated_elements}')
