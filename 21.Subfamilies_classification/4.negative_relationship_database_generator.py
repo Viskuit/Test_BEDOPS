@@ -9,7 +9,7 @@ import re
 # =============================================================================
 def parse_arguments():
     parser: argparse.ArgumentParser = argparse.ArgumentParser(description='From the relationship database CSV and the original FASTA file, divide the data in two subsets: related and unrelated')
-    parser.add_argument('-csv', '--csv_file', type=str, required=True, help='Path to the relationship database CSV file')
+    parser.add_argument('-csv', '--csv_file', type=str, required=True, help='Path to the NAMED relationship database CSV file')
     parser.add_argument('-csv2', '--csv_file2', type=str, required=True, help='Path to the original CSV file')
     parser.add_argument('-o', '--output', type=str, required=True, help='Path to the output directory to save the data')
     return parser.parse_args()
@@ -67,6 +67,8 @@ if __name__ == '__main__':
 
     # The same for the "more_elem_rows" but for every column which is not NaN
     more_elem_index = extract_number(more_elem_rows)
+    
+    #
 
     # use "one_elem_rows" and "more_elem_rows" to get the related and unrelated data from the original csv since these numbers are the indices from the original csv
     related_data = og_data.iloc[more_elem_index]
