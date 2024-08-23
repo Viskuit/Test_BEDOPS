@@ -52,15 +52,21 @@ if __name__ == '__main__':
 
     # Filter by length
     blastn_df = blastn_df[blastn_df['length'] > 100].copy()
+    
+    # Save data for future coordinates correction
+    blastn_df.to_csv(os.path.join(path_working_folder, 'blastn_neg_noMatchCds_plus100nt.csv'), index=False, header=True, sep=',')
 
     # Create a dictionary with the sequences In their respective relationships
     main_dict = {}
-    for query in blastn_df['qseqid'].unique():
-        values = blastn_df[blastn_df['qseqid'] == query].loc[:, 
-                                                             ['sseqid']].values.flatten().tolist()  # For each query, get the values from 'sseqid' that match with that query.
+    for subject in blastn_df['sseqid'].unique():
+        values = blastn_df.loc[
+            blastn_df['sseqid'] == subject,
+            ['sseqid']
+            ].values.flatten().tolist()  # For each subject, get the values from 'qseqid' that match with that subject.
+            
         values = list(set(values))  # Remove duplicates
         values = sorted(values)
-        main_dict[query] = values
+        main_dict[subject] = values
     main_dict = {key: sorted(value, key=lambda x: int(re.findall(r'_(\d+)_', x)[0])) for key, value in
                  main_dict.items()}
 

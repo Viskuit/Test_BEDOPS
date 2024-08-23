@@ -42,7 +42,7 @@ def blastn_blaster(query, path_genome, identity):
     return data_df  # I only need to return the data, no need to transform it into a pandas dataframe since I want to check the number of lines with the line separator '\n'
 
 # -----------------------------------------------------------------------------
-def blastn_blaster2(query, path_genome, identity):
+def blastn_blaster2(query, path_genome, identity):  # Version with "qlen" and "slen" columns
     cmd = (
         f'blastn -word_size 11 '
         f'-query {query} '
@@ -74,6 +74,13 @@ def fasta_creator(data, fasta_output_path):
                         )
         matrix.append(rec)
     SeqIO.write(matrix, fasta_output_path, "fasta")
+    
+# -----------------------------------------------------------------------------
+def get_sequence(start_coor, end_coor, strand, chromosome, path_genome):
+    cmd = f'blastdbcmd -db {path_genome} -entry {chromosome} -range {start_coor}-{end_coor} -strand {strand} -outfmt %s'
+    sequence = subprocess.run(cmd, shell=True, capture_output=True, text=True, universal_newlines=True, executable='/usr/bin/bash')
+    sequence = sequence.stdout.strip()
+    return sequence
 
 # -----------------------------------------------------------------------------
 def save_sequences_to_csv_pandas(data, filename):
