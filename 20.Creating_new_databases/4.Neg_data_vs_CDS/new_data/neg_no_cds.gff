@@ -17,7 +17,6 @@ LinJ.02	CBM	Negative_Repetead_no_CDS	198554	199214	.	+	.	.
 LinJ.02	CBM	Negative_Repetead_no_CDS	268717	269351	.	+	.	.
 LinJ.03	CBM	Negative_Repetead_no_CDS	173455	173624	.	+	.	.
 LinJ.03	CBM	Negative_Repetead_no_CDS	237713	238294	.	+	.	.
-LinJ.04	CBM	Negative_Repetead_no_CDS	97729	98226	.	+	.	.
 LinJ.04	CBM	Negative_Repetead_no_CDS	121442	122131	.	+	.	.
 LinJ.04	CBM	Negative_Repetead_no_CDS	125951	126626	.	+	.	.
 LinJ.04	CBM	Negative_Repetead_no_CDS	142237	142354	.	+	.	.
@@ -31,7 +30,6 @@ LinJ.05	CBM	Negative_Repetead_no_CDS	40508	40655	.	+	.	.
 LinJ.05	CBM	Negative_Repetead_no_CDS	66133	66737	.	+	.	.
 LinJ.05	CBM	Negative_Repetead_no_CDS	70922	71506	.	+	.	.
 LinJ.05	CBM	Negative_Repetead_no_CDS	106355	106561	.	+	.	.
-LinJ.05	CBM	Negative_Repetead_no_CDS	109889	110888	.	+	.	.
 LinJ.05	CBM	Negative_Repetead_no_CDS	134505	135193	.	+	.	.
 LinJ.05	CBM	Negative_Repetead_no_CDS	147454	148138	.	+	.	.
 LinJ.05	CBM	Negative_Repetead_no_CDS	360420	361026	.	+	.	.
@@ -41,7 +39,6 @@ LinJ.06	CBM	Negative_Repetead_no_CDS	62446	62997	.	+	.	.
 LinJ.06	CBM	Negative_Repetead_no_CDS	103149	103283	.	+	.	.
 LinJ.06	CBM	Negative_Repetead_no_CDS	126044	126742	.	+	.	.
 LinJ.06	CBM	Negative_Repetead_no_CDS	404579	404703	.	+	.	.
-LinJ.07	CBM	Negative_Repetead_no_CDS	63117	63257	.	+	.	.
 LinJ.07	CBM	Negative_Repetead_no_CDS	168879	169036	.	+	.	.
 LinJ.07	CBM	Negative_Repetead_no_CDS	210869	212413	.	+	.	.
 LinJ.07	CBM	Negative_Repetead_no_CDS	213499	213694	.	+	.	.
@@ -56,7 +53,6 @@ LinJ.07	CBM	Negative_Repetead_no_CDS	569997	570182	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	65283	65425	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	77096	77663	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	192353	193029	.	+	.	.
-LinJ.08	CBM	Negative_Repetead_no_CDS	282267	282840	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	297968	298407	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	298422	298867	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	298873	299214	.	+	.	.
@@ -69,7 +65,6 @@ LinJ.08	CBM	Negative_Repetead_no_CDS	311805	312244	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	312260	312596	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	312602	312943	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	318217	318766	.	+	.	.
-LinJ.08	CBM	Negative_Repetead_no_CDS	322677	323962	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	326586	327218	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	330364	331222	.	+	.	.
 LinJ.08	CBM	Negative_Repetead_no_CDS	331230	331713	.	+	.	.
@@ -95,8 +90,6 @@ LinJ.09	CBM	Negative_Repetead_no_CDS	212089	212703	.	+	.	.
 LinJ.09	CBM	Negative_Repetead_no_CDS	218804	219419	.	+	.	.
 LinJ.09	CBM	Negative_Repetead_no_CDS	229344	229967	.	+	.	.
 LinJ.09	CBM	Negative_Repetead_no_CDS	415937	416936	.	+	.	.
-LinJ.09	CBM	Negative_Repetead_no_CDS	482503	483178	.	+	.	.
-LinJ.09	CBM	Negative_Repetead_no_CDS	483332	484362	.	+	.	.
 LinJ.09	CBM	Negative_Repetead_no_CDS	497793	498105	.	+	.	.
 LinJ.09	CBM	Negative_Repetead_no_CDS	498116	498448	.	+	.	.
 LinJ.09	CBM	Negative_Repetead_no_CDS	506239	506345	.	+	.	.
@@ -205,11 +198,9 @@ LinJ.17	CBM	Negative_Repetead_no_CDS	689651	690640	.	+	.	.
 LinJ.18	CBM	Negative_Repetead_no_CDS	124930	125038	.	+	.	.
 LinJ.18	CBM	Negative_Repetead_no_CDS	166936	167935	.	+	.	.
 LinJ.18	CBM	Negative_Repetead_no_CDS	238378	238695	.	+	.	.
-LinJ.18	CBM	Negative_Repetead_no_CDS	270762	270869	.	+	.	.
 LinJ.18	CBM	Negative_Repetead_no_CDS	287201	287355	.	+	.	.
 LinJ.18	CBM	Negative_Repetead_no_CDS	480272	480486	.	+	.	.
 LinJ.18	CBM	Negative_Repetead_no_CDS	553983	554089	.	+	.	.
-LinJ.18	CBM	Negative_Repetead_no_CDS	713985	714089	.	+	.	.
 LinJ.18	CBM	Negative_Repetead_no_CDS	715430	715566	.	+	.	.
 LinJ.19	CBM	Negative_Repetead_no_CDS	52913	53019	.	+	.	.
 LinJ.19	CBM	Negative_Repetead_no_CDS	185499	186066	.	+	.	.
@@ -247,10 +238,8 @@ LinJ.21	CBM	Negative_Repetead_no_CDS	310176	310322	.	+	.	.
 LinJ.21	CBM	Negative_Repetead_no_CDS	448901	449007	.	+	.	.
 LinJ.21	CBM	Negative_Repetead_no_CDS	488203	488569	.	+	.	.
 LinJ.21	CBM	Negative_Repetead_no_CDS	537059	537641	.	+	.	.
-LinJ.21	CBM	Negative_Repetead_no_CDS	544981	545089	.	+	.	.
 LinJ.21	CBM	Negative_Repetead_no_CDS	564518	564655	.	+	.	.
 LinJ.21	CBM	Negative_Repetead_no_CDS	564756	564865	.	+	.	.
-LinJ.21	CBM	Negative_Repetead_no_CDS	576604	576716	.	+	.	.
 LinJ.21	CBM	Negative_Repetead_no_CDS	579503	579950	.	+	.	.
 LinJ.21	CBM	Negative_Repetead_no_CDS	622304	622450	.	+	.	.
 LinJ.21	CBM	Negative_Repetead_no_CDS	686955	687533	.	+	.	.
@@ -258,9 +247,7 @@ LinJ.21	CBM	Negative_Repetead_no_CDS	762813	763802	.	+	.	.
 LinJ.22	CBM	Negative_Repetead_no_CDS	35048	36047	.	+	.	.
 LinJ.22	CBM	Negative_Repetead_no_CDS	62818	63466	.	+	.	.
 LinJ.22	CBM	Negative_Repetead_no_CDS	74957	75563	.	+	.	.
-LinJ.22	CBM	Negative_Repetead_no_CDS	94666	95220	.	+	.	.
 LinJ.22	CBM	Negative_Repetead_no_CDS	228580	228752	.	+	.	.
-LinJ.22	CBM	Negative_Repetead_no_CDS	334059	335069	.	+	.	.
 LinJ.22	CBM	Negative_Repetead_no_CDS	434682	435259	.	+	.	.
 LinJ.22	CBM	Negative_Repetead_no_CDS	625837	626410	.	+	.	.
 LinJ.22	CBM	Negative_Repetead_no_CDS	745720	746397	.	+	.	.
@@ -274,7 +261,6 @@ LinJ.23	CBM	Negative_Repetead_no_CDS	97242	97820	.	+	.	.
 LinJ.23	CBM	Negative_Repetead_no_CDS	242096	242818	.	+	.	.
 LinJ.23	CBM	Negative_Repetead_no_CDS	288089	288242	.	+	.	.
 LinJ.23	CBM	Negative_Repetead_no_CDS	297095	297513	.	+	.	.
-LinJ.23	CBM	Negative_Repetead_no_CDS	341848	341968	.	+	.	.
 LinJ.23	CBM	Negative_Repetead_no_CDS	380027	381026	.	+	.	.
 LinJ.23	CBM	Negative_Repetead_no_CDS	428169	428400	.	+	.	.
 LinJ.23	CBM	Negative_Repetead_no_CDS	491538	492094	.	+	.	.
@@ -310,7 +296,6 @@ LinJ.25	CBM	Negative_Repetead_no_CDS	450805	450922	.	+	.	.
 LinJ.25	CBM	Negative_Repetead_no_CDS	450929	451064	.	+	.	.
 LinJ.25	CBM	Negative_Repetead_no_CDS	575399	575586	.	+	.	.
 LinJ.25	CBM	Negative_Repetead_no_CDS	604814	604933	.	+	.	.
-LinJ.25	CBM	Negative_Repetead_no_CDS	621029	622028	.	+	.	.
 LinJ.25	CBM	Negative_Repetead_no_CDS	629044	629150	.	+	.	.
 LinJ.26	CBM	Negative_Repetead_no_CDS	9547	10119	.	+	.	.
 LinJ.26	CBM	Negative_Repetead_no_CDS	36509	36613	.	+	.	.
@@ -319,7 +304,6 @@ LinJ.26	CBM	Negative_Repetead_no_CDS	225085	225193	.	+	.	.
 LinJ.26	CBM	Negative_Repetead_no_CDS	225230	225783	.	+	.	.
 LinJ.26	CBM	Negative_Repetead_no_CDS	366775	366885	.	+	.	.
 LinJ.26	CBM	Negative_Repetead_no_CDS	501969	502181	.	+	.	.
-LinJ.26	CBM	Negative_Repetead_no_CDS	557327	558326	.	+	.	.
 LinJ.26	CBM	Negative_Repetead_no_CDS	599356	599485	.	+	.	.
 LinJ.26	CBM	Negative_Repetead_no_CDS	599539	600133	.	+	.	.
 LinJ.26	CBM	Negative_Repetead_no_CDS	605161	605284	.	+	.	.
@@ -425,22 +409,16 @@ LinJ.30	CBM	Negative_Repetead_no_CDS	1231222	1231376	.	+	.	.
 LinJ.30	CBM	Negative_Repetead_no_CDS	1295539	1295641	.	+	.	.
 LinJ.30	CBM	Negative_Repetead_no_CDS	1337788	1338364	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	1662	2322	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	95487	96146	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	102884	103543	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	107905	108627	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	148264	148518	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	149399	150286	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	151325	151986	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	153334	153538	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	153540	154219	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	208188	208777	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	212582	213149	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	253349	253492	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	303402	304036	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	313723	314501	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	317505	318208	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	323212	324023	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	333751	334401	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	406616	407269	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	430589	430745	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	434040	434257	.	+	.	.
@@ -460,13 +438,7 @@ LinJ.31	CBM	Negative_Repetead_no_CDS	791536	792159	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	851226	851328	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	856361	857374	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	859801	860518	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	882023	882647	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	888809	889433	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	899193	899817	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	905981	906605	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	910755	910886	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	913626	914620	.	+	.	.
-LinJ.31	CBM	Negative_Repetead_no_CDS	922777	923771	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	969527	970142	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	975268	975379	.	+	.	.
 LinJ.31	CBM	Negative_Repetead_no_CDS	980313	980428	.	+	.	.
@@ -542,7 +514,6 @@ LinJ.34	CBM	Negative_Repetead_no_CDS	433526	434434	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	446708	447616	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	451127	452035	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	512997	513653	.	+	.	.
-LinJ.34	CBM	Negative_Repetead_no_CDS	517234	517998	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	559051	559202	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	686814	687088	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	738601	738705	.	+	.	.
@@ -566,7 +537,6 @@ LinJ.34	CBM	Negative_Repetead_no_CDS	778454	778656	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	778760	779403	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	779496	781159	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	781257	782723	.	+	.	.
-LinJ.34	CBM	Negative_Repetead_no_CDS	804281	805306	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	805686	806187	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	813947	814064	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	814099	814710	.	+	.	.
@@ -585,7 +555,6 @@ LinJ.34	CBM	Negative_Repetead_no_CDS	1067529	1068086	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1211600	1212177	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1226068	1226189	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1228610	1228840	.	+	.	.
-LinJ.34	CBM	Negative_Repetead_no_CDS	1239122	1239274	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1241532	1241793	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1241847	1242109	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1242390	1242810	.	+	.	.
@@ -594,13 +563,11 @@ LinJ.34	CBM	Negative_Repetead_no_CDS	1247411	1247671	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1247952	1248372	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1248467	1249127	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1250453	1250811	.	+	.	.
-LinJ.34	CBM	Negative_Repetead_no_CDS	1252545	1252887	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1252983	1253244	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1253298	1253558	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1253839	1254259	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1254354	1255014	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1256340	1256698	.	+	.	.
-LinJ.34	CBM	Negative_Repetead_no_CDS	1258432	1258774	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1258870	1259131	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1259185	1259445	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1259726	1260146	.	+	.	.
@@ -614,7 +581,6 @@ LinJ.34	CBM	Negative_Repetead_no_CDS	1268127	1268485	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1270962	1271222	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1271502	1271922	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1274067	1274425	.	+	.	.
-LinJ.34	CBM	Negative_Repetead_no_CDS	1276193	1276489	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1276590	1276851	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1276905	1277166	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1277446	1277866	.	+	.	.
@@ -638,10 +604,6 @@ LinJ.34	CBM	Negative_Repetead_no_CDS	1512273	1512377	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1577291	1577992	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1736270	1736880	.	+	.	.
 LinJ.34	CBM	Negative_Repetead_no_CDS	1745333	1745513	.	+	.	.
-LinJ.35	CBM	Negative_Repetead_no_CDS	10692	11256	.	+	.	.
-LinJ.35	CBM	Negative_Repetead_no_CDS	217141	217452	.	+	.	.
-LinJ.35	CBM	Negative_Repetead_no_CDS	217565	218110	.	+	.	.
-LinJ.35	CBM	Negative_Repetead_no_CDS	218293	218844	.	+	.	.
 LinJ.35	CBM	Negative_Repetead_no_CDS	253054	253587	.	+	.	.
 LinJ.35	CBM	Negative_Repetead_no_CDS	286627	287189	.	+	.	.
 LinJ.35	CBM	Negative_Repetead_no_CDS	297054	297406	.	+	.	.
@@ -668,7 +630,6 @@ LinJ.35	CBM	Negative_Repetead_no_CDS	1552324	1552432	.	+	.	.
 LinJ.35	CBM	Negative_Repetead_no_CDS	1631161	1631853	.	+	.	.
 LinJ.35	CBM	Negative_Repetead_no_CDS	1745333	1745436	.	+	.	.
 LinJ.35	CBM	Negative_Repetead_no_CDS	1907596	1907704	.	+	.	.
-LinJ.35	CBM	Negative_Repetead_no_CDS	1933050	1933153	.	+	.	.
 LinJ.35	CBM	Negative_Repetead_no_CDS	1950214	1950334	.	+	.	.
 LinJ.35	CBM	Negative_Repetead_no_CDS	1966090	1967090	.	+	.	.
 LinJ.35	CBM	Negative_Repetead_no_CDS	1995790	1996303	.	+	.	.
@@ -691,7 +652,6 @@ LinJ.36	CBM	Negative_Repetead_no_CDS	1567096	1567209	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	1588564	1588687	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	1676554	1676665	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	1712123	1712226	.	+	.	.
-LinJ.36	CBM	Negative_Repetead_no_CDS	1772516	1773515	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	1946048	1946190	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	1946504	1946810	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	1967616	1967760	.	+	.	.
@@ -717,7 +677,6 @@ LinJ.36	CBM	Negative_Repetead_no_CDS	2600038	2600296	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	2634145	2634323	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	2648605	2648838	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	2658534	2658789	.	+	.	.
-LinJ.36	CBM	Negative_Repetead_no_CDS	2660170	2660279	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	2665095	2665736	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	2691915	2692135	.	+	.	.
 LinJ.36	CBM	Negative_Repetead_no_CDS	2706883	2707095	.	+	.	.
