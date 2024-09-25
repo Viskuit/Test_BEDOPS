@@ -1,0 +1,484 @@
+./goatools_data/go-basic.obo: fmt(1.2) rel(2024-06-17) 51,502 Terms
+[2;36m[09/25/24 15:12:48][0m[2;36m [0m[31mWARNING [0m GO:[1;36m0055114[0m obsolete in DAG,    ]8;id=890033;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=220673;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0052106[0m obsolete in DAG,    ]8;id=388554;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=445187;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=811324;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=696850;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0004428[0m obsolete in DAG,    ]8;id=510663;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=155564;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0031307[0m obsolete in DAG,    ]8;id=249585;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=260453;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0031307[0m obsolete in DAG,    ]8;id=876766;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=686947;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0052106[0m obsolete in DAG,    ]8;id=246524;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=810885;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=161631;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=661380;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0050072[0m obsolete in DAG,    ]8;id=738164;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=800494;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0055114[0m obsolete in DAG,    ]8;id=984131;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=855711;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=687397;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=131899;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=361561;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=220843;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0030176[0m obsolete in DAG,    ]8;id=162249;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=477076;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0009405[0m obsolete in DAG,    ]8;id=563178;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=328929;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0034969[0m obsolete in DAG,    ]8;id=372954;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=450653;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0033955[0m obsolete in DAG,    ]8;id=268214;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=986686;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=58340;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=957871;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0031377[0m obsolete in DAG,    ]8;id=591141;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=809087;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0031377[0m obsolete in DAG,    ]8;id=840178;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=509812;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=903507;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=365568;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0009315[0m obsolete in DAG,    ]8;id=884490;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=934773;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=343204;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=673864;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0075130[0m obsolete in DAG,    ]8;id=611541;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=461844;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044081[0m obsolete in DAG,    ]8;id=975972;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=820295;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0075130[0m obsolete in DAG,    ]8;id=577359;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=808206;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044081[0m obsolete in DAG,    ]8;id=552642;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=14481;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0075130[0m obsolete in DAG,    ]8;id=466767;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=212078;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044081[0m obsolete in DAG,    ]8;id=370438;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=767382;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0075130[0m obsolete in DAG,    ]8;id=68743;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=235790;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044081[0m obsolete in DAG,    ]8;id=168175;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=21512;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0075130[0m obsolete in DAG,    ]8;id=263771;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=693000;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044081[0m obsolete in DAG,    ]8;id=811628;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=965452;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005844[0m obsolete in DAG,    ]8;id=546154;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=10404;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=531863;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=681377;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0052106[0m obsolete in DAG,    ]8;id=133574;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=906712;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0052106[0m obsolete in DAG,    ]8;id=44532;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=862509;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005747[0m obsolete in DAG,    ]8;id=462157;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=791446;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0009405[0m obsolete in DAG,    ]8;id=776117;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=308098;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0030176[0m obsolete in DAG,    ]8;id=423806;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=147318;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0030176[0m obsolete in DAG,    ]8;id=917695;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=975553;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0030176[0m obsolete in DAG,    ]8;id=210777;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=811833;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0052190[0m obsolete in DAG,    ]8;id=827230;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=745997;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0052190[0m obsolete in DAG,    ]8;id=607577;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=329616;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0030433[0m obsolete in DAG,    ]8;id=363115;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=706184;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0034969[0m obsolete in DAG,    ]8;id=674753;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=855972;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0016573[0m obsolete in DAG,    ]8;id=199375;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=993650;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0046658[0m obsolete in DAG,    ]8;id=537683;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=419975;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0019861[0m obsolete in DAG,    ]8;id=901346;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=517915;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m[09/25/24 15:12:49][0m[2;36m [0m[31mWARNING [0m GO:[1;36m0006378[0m obsolete in DAG,    ]8;id=139160;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=270070;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0019861[0m obsolete in DAG,    ]8;id=211006;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=396171;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0007109[0m obsolete in DAG,    ]8;id=56577;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=240414;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0042624[0m obsolete in DAG,    ]8;id=125416;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=204411;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0018024[0m obsolete in DAG,    ]8;id=908756;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=780045;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0031936[0m obsolete in DAG,    ]8;id=324182;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=662204;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0060968[0m obsolete in DAG,    ]8;id=205449;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=585497;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005747[0m obsolete in DAG,    ]8;id=48294;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=887972;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0030173[0m obsolete in DAG,    ]8;id=785844;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=451726;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0060286[0m obsolete in DAG,    ]8;id=307899;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=580338;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0004221[0m obsolete in DAG,    ]8;id=521634;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=304892;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005747[0m obsolete in DAG,    ]8;id=98722;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=712760;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=463646;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=796209;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0043631[0m obsolete in DAG,    ]8;id=433761;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=724670;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0004652[0m obsolete in DAG,    ]8;id=148099;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=323608;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0006378[0m obsolete in DAG,    ]8;id=420590;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=299809;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0046658[0m obsolete in DAG,    ]8;id=741154;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=139009;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=615363;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=397100;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0016573[0m obsolete in DAG,    ]8;id=374068;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=240376;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0008148[0m obsolete in DAG,    ]8;id=687595;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=707320;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=217068;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=922005;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005749[0m obsolete in DAG,    ]8;id=524136;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=844865;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=947642;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=723225;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=373526;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=532726;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=263561;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=923975;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0008248[0m obsolete in DAG,    ]8;id=99860;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=84460;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=362112;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=512382;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0001306[0m obsolete in DAG,    ]8;id=849368;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=267079;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0030173[0m obsolete in DAG,    ]8;id=675719;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=482775;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005747[0m obsolete in DAG,    ]8;id=955129;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=685731;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=903708;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=60075;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0033955[0m obsolete in DAG,    ]8;id=659662;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=497717;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0004652[0m obsolete in DAG,    ]8;id=541321;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=288146;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0006378[0m obsolete in DAG,    ]8;id=760022;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=508111;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=602835;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=969282;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005747[0m obsolete in DAG,    ]8;id=330691;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=17278;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0009405[0m obsolete in DAG,    ]8;id=555593;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=664022;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044008[0m obsolete in DAG,    ]8;id=767718;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=755051;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0052106[0m obsolete in DAG,    ]8;id=887326;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=408329;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044008[0m obsolete in DAG,    ]8;id=183277;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=781659;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0016944[0m obsolete in DAG,    ]8;id=380012;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=118562;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=351433;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=300757;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0030176[0m obsolete in DAG,    ]8;id=417748;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=10189;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=688885;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=556866;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005749[0m obsolete in DAG,    ]8;id=609541;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=691880;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0004584[0m obsolete in DAG,    ]8;id=688624;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=165180;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0006378[0m obsolete in DAG,    ]8;id=749524;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=366657;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005749[0m obsolete in DAG,    ]8;id=76038;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=19861;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=279652;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=161389;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=17058;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=712893;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=665025;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=10632;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0009405[0m obsolete in DAG,    ]8;id=184657;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=181075;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0043987[0m obsolete in DAG,    ]8;id=573674;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=577016;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0055114[0m obsolete in DAG,    ]8;id=22387;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=702295;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0009343[0m obsolete in DAG,    ]8;id=461909;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=703132;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005844[0m obsolete in DAG,    ]8;id=427583;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=925014;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=817688;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=574364;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0006378[0m obsolete in DAG,    ]8;id=423963;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=477068;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0009405[0m obsolete in DAG,    ]8;id=830591;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=439815;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005747[0m obsolete in DAG,    ]8;id=644496;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=430128;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=271738;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=411309;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=587222;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=566938;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0043631[0m obsolete in DAG,    ]8;id=189828;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=127561;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=307455;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=564805;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=284591;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=725258;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0052106[0m obsolete in DAG,    ]8;id=968770;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=362230;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=767820;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=958679;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=959368;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=162802;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0043631[0m obsolete in DAG,    ]8;id=565132;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=919216;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0031304[0m obsolete in DAG,    ]8;id=161043;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=633718;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0006800[0m obsolete in DAG,    ]8;id=803045;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=244826;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=796074;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=374925;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0016307[0m obsolete in DAG,    ]8;id=446848;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=606323;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=705387;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=56329;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0052106[0m obsolete in DAG,    ]8;id=443534;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=327094;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005747[0m obsolete in DAG,    ]8;id=374877;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=734816;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0033955[0m obsolete in DAG,    ]8;id=224534;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=99323;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=967504;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=76034;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0016564[0m obsolete in DAG,    ]8;id=636043;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=67224;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0019861[0m obsolete in DAG,    ]8;id=49174;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=19095;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0009405[0m obsolete in DAG,    ]8;id=262029;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=378544;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=280933;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=629097;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0031307[0m obsolete in DAG,    ]8;id=563762;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=695526;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0006378[0m obsolete in DAG,    ]8;id=853411;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=938920;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0050072[0m obsolete in DAG,    ]8;id=334014;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=882363;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=115862;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=38092;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0031935[0m obsolete in DAG,    ]8;id=411488;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=790367;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0033955[0m obsolete in DAG,    ]8;id=166563;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=737336;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0031226[0m obsolete in DAG,    ]8;id=29041;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=168856;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0004584[0m obsolete in DAG,    ]8;id=521057;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=465644;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0043631[0m obsolete in DAG,    ]8;id=79752;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=269424;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0016570[0m obsolete in DAG,    ]8;id=669772;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=509712;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0016585[0m obsolete in DAG,    ]8;id=403542;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=548779;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=732667;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=826277;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0005747[0m obsolete in DAG,    ]8;id=772144;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=455691;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0050072[0m obsolete in DAG,    ]8;id=122228;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=611070;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0033955[0m obsolete in DAG,    ]8;id=967715;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=576945;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=750619;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=176183;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0044429[0m obsolete in DAG,    ]8;id=626981;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=953949;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0009405[0m obsolete in DAG,    ]8;id=98285;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=818679;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+[2;36m                   [0m[2;36m [0m[31mWARNING [0m GO:[1;36m0009405[0m obsolete in DAG,    ]8;id=579133;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py\[2mreader_idtogos.py[0m]8;;\[2m:[0m]8;id=876565;file:///home/viskuit/micromamba/envs/goatools/lib/python3.12/site-packages/goatools/anno/init/reader_idtogos.py#90\[2m90[0m]8;;\
+[2;36m                    [0m         skipped                        [2m                    [0m
+HMS:0:00:00.155459   5,797 annotations READ: ./goatools_data/associations 
+Study: 86 vs. Population 2624
+
+
+Load BP Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+ 23%    596 of  2,624 population items found in association
+
+Load CC Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+ 94%  2,474 of  2,624 population items found in association
+
+Load MF Ontology Enrichment Analysis ...
+Propagating term counts up: is_a
+ 20%    524 of  2,624 population items found in association
+
+Runing BP Ontology Analysis: current study set of 86 IDs.
+ 30%     26 of     86 study items found in association
+100%     86 of     86 study items found in population(2624)
+Calculating 1,235 uncorrected p-values using fisher_scipy_stats
+   1,235 terms are associated with    596 of  2,624 population items
+     236 terms are associated with     26 of     86 study items
+  METHOD bonferroni:
+       2 GO terms found significant (< 0.05=alpha) (  2 enriched +   0 purified): local bonferroni
+       3 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+  METHOD sidak:
+       2 GO terms found significant (< 0.05=alpha) (  2 enriched +   0 purified): local sidak
+       3 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+  METHOD holm:
+       2 GO terms found significant (< 0.05=alpha) (  2 enriched +   0 purified): local holm
+       3 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+  METHOD fdr_bh:
+       5 GO terms found significant (< 0.05=alpha) (  5 enriched +   0 purified): statsmodels fdr_bh
+       6 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Runing CC Ontology Analysis: current study set of 86 IDs.
+ 90%     77 of     86 study items found in association
+100%     86 of     86 study items found in population(2624)
+Calculating 291 uncorrected p-values using fisher_scipy_stats
+     291 terms are associated with  2,474 of  2,624 population items
+      63 terms are associated with     77 of     86 study items
+  METHOD bonferroni:
+       1 GO terms found significant (< 0.05=alpha) (  1 enriched +   0 purified): local bonferroni
+       4 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+  METHOD sidak:
+       1 GO terms found significant (< 0.05=alpha) (  1 enriched +   0 purified): local sidak
+       4 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+  METHOD holm:
+       1 GO terms found significant (< 0.05=alpha) (  1 enriched +   0 purified): local holm
+       4 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+  METHOD fdr_bh:
+       1 GO terms found significant (< 0.05=alpha) (  1 enriched +   0 purified): statsmodels fdr_bh
+       4 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Runing MF Ontology Analysis: current study set of 86 IDs.
+ 33%     28 of     86 study items found in association
+100%     86 of     86 study items found in population(2624)
+Calculating 705 uncorrected p-values using fisher_scipy_stats
+     705 terms are associated with    524 of  2,624 population items
+     127 terms are associated with     28 of     86 study items
+  METHOD bonferroni:
+       2 GO terms found significant (< 0.05=alpha) (  2 enriched +   0 purified): local bonferroni
+       3 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+  METHOD sidak:
+       2 GO terms found significant (< 0.05=alpha) (  2 enriched +   0 purified): local sidak
+       3 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+  METHOD holm:
+       2 GO terms found significant (< 0.05=alpha) (  2 enriched +   0 purified): local holm
+       3 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+  METHOD fdr_bh:
+       3 GO terms found significant (< 0.05=alpha) (  3 enriched +   0 purified): statsmodels fdr_bh
+       3 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+     96 of 2,231 results have uncorrected P-values <= 0.05=pval
+
+# Generated by GOATOOLS v1.4.12 (2024-09-25)
+# min_ratio=None pval=0.05
+GO	NS	enrichment	name	ratio_in_study	ratio_in_pop	p_uncorrected	depth	study_count	p_bonferroni	p_sidak	p_holm	p_fdr_bh	study_items
+GO:0072334	BP	e	UDP-galactose transmembrane transport	3/86	3/2624	3.4e-05	8	3	0.042	0.041	0.042	0.021	LINF_180009000, LINF_240008300, LINF_240008400
+GO:0090481	BP	e	pyrimidine nucleotide-sugar transmembrane transport	3/86	3/2624	3.4e-05	7	3	0.042	0.041	0.042	0.021	LINF_180009000, LINF_240008300, LINF_240008400
+GO:1901264	BP	e	carbohydrate derivative transport	3/86	4/2624	0.000133	4	3	0.164	0.16	0.164	0.0349	LINF_180009000, LINF_240008300, LINF_240008400
+GO:0015780	BP	e	nucleotide-sugar transmembrane transport	3/86	4/2624	0.000133	6	3	0.164	0.16	0.164	0.0349	LINF_180009000, LINF_240008300, LINF_240008400
+GO:0055085	BP	e	transmembrane transport       	6/86	26/2624	0.000141	4	6	0.175	0.17	0.174	0.0349	LINF_180009000, LINF_240008300, LINF_240008400, LINF_310014500, LINF_360073200, LINF_360073600
+GO:0015711	BP	e	organic anion transport       	4/86	14/2624	0.000838	4	4	1	1	1	0.172	LINF_180009000, LINF_240008300, LINF_240008400, LINF_310014500
+GO:0006629	BP	e	lipid metabolic process       	8/86	65/2624	0.00105	3	8	1	1	1	0.186	LINF_080007000, LINF_120006700, LINF_130007000, LINF_140012400, LINF_140012800, LINF_220019700, LINF_270022400, LINF_340026200
+GO:0015931	BP	e	nucleobase-containing compound transport	3/86	8/2624	0.00169	5	3	1	1	1	0.261	LINF_180009000, LINF_240008300, LINF_240008400
+GO:0008645	BP	e	hexose transmembrane transport	2/86	3/2624	0.00312	7	2	1	1	1	0.35	LINF_360073200, LINF_360073600
+GO:1904659	BP	e	glucose transmembrane transport	2/86	3/2624	0.00312	8	2	1	1	1	0.35	LINF_360073200, LINF_360073600
+GO:0015749	BP	e	monosaccharide transmembrane transport	2/86	3/2624	0.00312	6	2	1	1	1	0.35	LINF_360073200, LINF_360073600
+GO:0044255	BP	e	cellular lipid metabolic process	7/86	63/2624	0.00396	4	7	1	1	1	0.408	LINF_080007000, LINF_120006700, LINF_140012400, LINF_140012800, LINF_220019700, LINF_270022400, LINF_340026200
+GO:0044237	BP	e	cellular metabolic process    	14/86	194/2624	0.00475	2	14	1	1	1	0.451	LINF_010009600, LINF_080007000, LINF_120006700, LINF_140012400, LINF_140012800, LINF_210006700, LINF_220019700, LINF_270022400, LINF_280032200, LINF_290035800, LINF_340026200, LINF_340026700, LINF_340027100, LINF_340039400
+GO:0008610	BP	e	lipid biosynthetic process    	6/86	51/2624	0.00573	4	6	1	1	1	0.471	LINF_080007000, LINF_140012400, LINF_140012800, LINF_220019700, LINF_270022400, LINF_340026200
+GO:0034219	BP	e	carbohydrate transmembrane transport	2/86	4/2624	0.0061	5	2	1	1	1	0.471	LINF_360073200, LINF_360073600
+GO:0008643	BP	e	carbohydrate transport        	2/86	4/2624	0.0061	4	2	1	1	1	0.471	LINF_360073200, LINF_360073600
+GO:0006796	BP	e	phosphate-containing compound metabolic process	7/86	69/2624	0.00659	4	7	1	1	1	0.479	LINF_010009600, LINF_080007000, LINF_210006700, LINF_220019700, LINF_340026200, LINF_340026700, LINF_340027100
+GO:0006793	BP	e	phosphorus metabolic process  	7/86	73/2624	0.00895	3	7	1	1	1	0.583	LINF_010009600, LINF_080007000, LINF_210006700, LINF_220019700, LINF_340026200, LINF_340026700, LINF_340027100
+GO:0071705	BP	e	nitrogen compound transport   	5/86	40/2624	0.00897	4	5	1	1	1	0.583	LINF_110011200, LINF_180009000, LINF_240008300, LINF_240008400, LINF_310014500
+GO:0044281	BP	e	small molecule metabolic process	7/86	79/2624	0.0136	2	7	1	1	1	0.839	LINF_010009600, LINF_120006700, LINF_140012400, LINF_140012800, LINF_220019700, LINF_290035800, LINF_340039400
+GO:0044283	BP	e	small molecule biosynthetic process	4/86	35/2624	0.026	3	4	1	1	1	0.88	LINF_140012400, LINF_140012800, LINF_220019700, LINF_290035800
+GO:0043558	BP	e	regulation of translational initiation in response to stress	1/86	1/2624	0.0328	11	1	1	1	1	0.88	 LINF_340026700
+GO:0009268	BP	e	response to pH                	1/86	1/2624	0.0328	3	1	1	1	1	0.88	 LINF_080007000
+GO:0046466	BP	e	membrane lipid catabolic process	1/86	1/2624	0.0328	6	1	1	1	1	0.88	 LINF_080007000
+GO:0072525	BP	e	pyridine-containing compound biosynthetic process	1/86	1/2624	0.0328	4	1	1	1	1	0.88	 LINF_010009600
+GO:1902475	BP	e	L-alpha-amino acid transmembrane transport	1/86	1/2624	0.0328	7	1	1	1	1	0.88	 LINF_310014500
+GO:0006684	BP	e	sphingomyelin metabolic process	1/86	1/2624	0.0328	7	1	1	1	1	0.88	 LINF_080007000
+GO:0030149	BP	e	sphingolipid catabolic process	1/86	1/2624	0.0328	7	1	1	1	1	0.88	 LINF_080007000
+GO:1990822	BP	e	basic amino acid transmembrane transport	1/86	1/2624	0.0328	6	1	1	1	1	0.88	 LINF_310014500
+GO:0006685	BP	e	sphingomyelin catabolic process	1/86	1/2624	0.0328	8	1	1	1	1	0.88	 LINF_080007000
+GO:0019359	BP	e	nicotinamide nucleotide biosynthetic process	1/86	1/2624	0.0328	9	1	1	1	1	0.88	 LINF_010009600
+GO:0071467	BP	e	cellular response to pH       	1/86	1/2624	0.0328	5	1	1	1	1	0.88	 LINF_080007000
+GO:0006874	BP	e	intracellular calcium ion homeostasis	1/86	1/2624	0.0328	6	1	1	1	1	0.88	 LINF_310018700
+GO:0019363	BP	e	pyridine nucleotide biosynthetic process	1/86	1/2624	0.0328	8	1	1	1	1	0.88	 LINF_010009600
+GO:0010447	BP	e	response to acidic pH         	1/86	1/2624	0.0328	4	1	1	1	1	0.88	 LINF_080007000
+GO:0043555	BP	e	regulation of translation in response to stress	1/86	1/2624	0.0328	10	1	1	1	1	0.88	 LINF_340026700
+GO:0006885	BP	e	regulation of pH              	1/86	1/2624	0.0328	5	1	1	1	1	0.88	 LINF_310018700
+GO:0010998	BP	e	regulation of translational initiation by eIF2 alpha phosphorylation	1/86	1/2624	0.0328	12	1	1	1	1	0.88	 LINF_340026700
+GO:0051453	BP	e	regulation of intracellular pH	1/86	1/2624	0.0328	7	1	1	1	1	0.88	 LINF_310018700
+GO:0080135	BP	e	regulation of cellular response to stress	1/86	1/2624	0.0328	5	1	1	1	1	0.88	 LINF_340026700
+GO:0010999	BP	e	regulation of eIF2 alpha phosphorylation by heme	1/86	1/2624	0.0328	11	1	1	1	1	0.88	 LINF_340026700
+GO:1903826	BP	e	L-arginine transmembrane transport	1/86	1/2624	0.0328	8	1	1	1	1	0.88	 LINF_310014500
+GO:0051452	BP	e	intracellular pH reduction    	1/86	1/2624	0.0328	8	1	1	1	1	0.88	 LINF_310018700
+GO:0009435	BP	e	NAD biosynthetic process      	1/86	1/2624	0.0328	10	1	1	1	1	0.88	 LINF_010009600
+GO:0071468	BP	e	cellular response to acidic pH	1/86	1/2624	0.0328	6	1	1	1	1	0.88	 LINF_080007000
+GO:0030641	BP	e	regulation of cellular pH     	1/86	1/2624	0.0328	6	1	1	1	1	0.88	 LINF_310018700
+GO:0009058	BP	e	biosynthetic process          	9/86	129/2624	0.0356	2	9	1	1	1	0.935	LINF_010009600, LINF_080007000, LINF_120006700, LINF_140012400, LINF_140012800, LINF_220019700, LINF_270022400, LINF_290035800, LINF_340026200
+GO:0009987	BP	e	cellular process              	20/86	399/2624	0.0456	1	20	1	1	1	0.948	LINF_010009600, LINF_080007000, LINF_120006700, LINF_140012400, LINF_140012800, LINF_180009000, LINF_210006700, LINF_220019700, LINF_240008300, LINF_240008400, LINF_270022400, LINF_280032200, LINF_290035800, LINF_310014500, LINF_340026200, LINF_340026700, LINF_340027100, LINF_340039400, LINF_360073200, LINF_360073600
+GO:0006644	BP	e	phospholipid metabolic process	3/86	25/2624	0.0465	5	3	1	1	1	0.948	LINF_080007000, LINF_220019700, LINF_340026200
+GO:0090304	BP	p	nucleic acid metabolic process	0/86	108/2624	0.0486	4	0	1	1	1	0.948	               
+GO:0000139	CC	e	Golgi membrane                	4/86	5/2624	5.25e-06	5	4	0.00153	0.00149	0.00153	0.00153	LINF_180009000, LINF_240008300, LINF_240008400, LINF_310018700
+GO:0005783	CC	e	endoplasmic reticulum         	7/86	58/2624	0.00246	5	7	0.715	0.697	0.71	0.238	LINF_080007000, LINF_220019700, LINF_290010600, LINF_300042700, LINF_320022600, LINF_320029300, LINF_360044300
+GO:0016020	CC	e	membrane                      	10/86	139/2624	0.0226	2	10	1	1	1	1	LINF_180009000, LINF_240008300, LINF_240008400, LINF_270022400, LINF_310014500, LINF_310018700, LINF_340026700, LINF_340038800, LINF_360073200, LINF_360073600
+GO:1990578	CC	e	perinuclear endoplasmic reticulum membrane	1/86	1/2624	0.0328	4	1	1	1	1	1	 LINF_340026700
+GO:0032991	CC	p	protein-containing complex    	0/86	209/2624	0.00164	1	0	0.476	0.464	0.475	0.238	               
+GO:0005930	CC	p	axoneme                       	1/86	184/2624	0.0285	2	1	1	1	1	1	 LINF_090011200
+GO:0005459	MF	e	UDP-galactose transmembrane transporter activity	3/86	3/2624	3.4e-05	6	3	0.024	0.0234	0.024	0.012	LINF_180009000, LINF_240008300, LINF_240008400
+GO:0015165	MF	e	pyrimidine nucleotide-sugar transmembrane transporter activity	3/86	3/2624	3.4e-05	5	3	0.024	0.0234	0.024	0.012	LINF_180009000, LINF_240008300, LINF_240008400
+GO:0005338	MF	e	nucleotide-sugar transmembrane transporter activity	3/86	4/2624	0.000133	4	3	0.0937	0.0913	0.0934	0.0312	LINF_180009000, LINF_240008300, LINF_240008400
+GO:1901505	MF	e	carbohydrate derivative transmembrane transporter activity	3/86	7/2624	0.00108	3	3	0.763	0.744	0.76	0.147	LINF_180009000, LINF_240008300, LINF_240008400
+GO:0015932	MF	e	nucleobase-containing compound transmembrane transporter activity	3/86	7/2624	0.00108	3	3	0.763	0.744	0.76	0.147	LINF_180009000, LINF_240008300, LINF_240008400
+GO:0022857	MF	e	transmembrane transporter activity	7/86	54/2624	0.00161	2	7	1	1	1	0.147	LINF_110011200, LINF_180009000, LINF_240008300, LINF_240008400, LINF_310014500, LINF_360073200, LINF_360073600
+GO:0005215	MF	e	transporter activity          	7/86	57/2624	0.00222	1	7	1	1	1	0.147	LINF_110011200, LINF_180009000, LINF_240008300, LINF_240008400, LINF_310014500, LINF_360073200, LINF_360073600
+GO:0003824	MF	e	catalytic activity            	19/86	298/2624	0.00308	1	19	1	1	1	0.147	LINF_010009600, LINF_050008500, LINF_080007000, LINF_120006700, LINF_130005800, LINF_130007000, LINF_140012400, LINF_140012800, LINF_170014800, LINF_210006700, LINF_210014700, LINF_220019700, LINF_270022400, LINF_290020900, LINF_290035800, LINF_320029300, LINF_340026200, LINF_340026700, LINF_340039400
+GO:0015149	MF	e	hexose transmembrane transporter activity	2/86	3/2624	0.00312	6	2	1	1	1	0.147	LINF_360073200, LINF_360073600
+GO:0015578	MF	e	mannose transmembrane transporter activity	2/86	3/2624	0.00312	7	2	1	1	1	0.147	LINF_360073200, LINF_360073600
+GO:0005354	MF	e	galactose transmembrane transporter activity	2/86	3/2624	0.00312	7	2	1	1	1	0.147	LINF_360073200, LINF_360073600
+GO:0055056	MF	e	D-glucose transmembrane transporter activity	2/86	3/2624	0.00312	7	2	1	1	1	0.147	LINF_360073200, LINF_360073600
+GO:0005353	MF	e	fructose transmembrane transporter activity	2/86	3/2624	0.00312	7	2	1	1	1	0.147	LINF_360073200, LINF_360073600
+GO:0015145	MF	e	monosaccharide transmembrane transporter activity	2/86	3/2624	0.00312	5	2	1	1	1	0.147	LINF_360073200, LINF_360073600
+GO:0051119	MF	e	sugar transmembrane transporter activity	2/86	3/2624	0.00312	4	2	1	1	1	0.147	LINF_360073200, LINF_360073600
+GO:0003674	MF	e	molecular_function            	28/86	524/2624	0.00555	0	28	1	1	1	0.239	LINF_010009600, LINF_050008500, LINF_080007000, LINF_090011100, LINF_110011200, LINF_120006700, LINF_130005800, LINF_130007000, LINF_140012400, LINF_140012800, LINF_170014800, LINF_180009000, LINF_210006700, LINF_210014700, LINF_220019700, LINF_240008300, LINF_240008400, LINF_270022400, LINF_280032200, LINF_290020900, LINF_290035800, LINF_310014500, LINF_320029300, LINF_340026200, LINF_340026700, LINF_340039400, LINF_360073200, LINF_360073600
+GO:0015144	MF	e	carbohydrate transmembrane transporter activity	2/86	4/2624	0.0061	3	2	1	1	1	0.239	LINF_360073200, LINF_360073600
+GO:0016298	MF	e	lipase activity               	2/86	4/2624	0.0061	4	2	1	1	1	0.239	LINF_080007000, LINF_130007000
+GO:0016787	MF	e	hydrolase activity            	7/86	79/2624	0.0136	2	7	1	1	1	0.504	LINF_010009600, LINF_080007000, LINF_130005800, LINF_130007000, LINF_210014700, LINF_290035800, LINF_320029300
+GO:0008237	MF	e	metallopeptidase activity     	2/86	7/2624	0.02	4	2	1	1	1	0.608	LINF_130005800, LINF_210014700
+GO:0016810	MF	e	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	2/86	8/2624	0.0261	3	2	1	1	1	0.608	LINF_010009600, LINF_290035800
+GO:0046857	MF	e	oxidoreductase activity, acting on other nitrogenous compounds as donors, with NAD or NADP as acceptor	1/86	1/2624	0.0328	4	1	1	1	1	0.608	 LINF_170014800
+GO:0004683	MF	e	calmodulin-dependent protein kinase activity	1/86	1/2624	0.0328	7	1	1	1	1	0.608	 LINF_340026700
+GO:0004767	MF	e	sphingomyelin phosphodiesterase activity	1/86	1/2624	0.0328	6	1	1	1	1	0.608	 LINF_080007000
+GO:0030572	MF	e	phosphatidyltransferase activity	1/86	1/2624	0.0328	5	1	1	1	1	0.608	 LINF_340026200
+GO:0004737	MF	e	pyruvate decarboxylase activity	1/86	1/2624	0.0328	5	1	1	1	1	0.608	 LINF_340039400
+GO:0005355	MF	e	glucose transmembrane transporter activity	1/86	1/2624	0.0328	8	1	1	1	1	0.608	 LINF_360073600
+GO:0004337	MF	e	geranyltranstransferase activity	1/86	1/2624	0.0328	5	1	1	1	1	0.608	 LINF_220019700
+GO:0042392	MF	e	sphingosine-1-phosphate phosphatase activity	1/86	1/2624	0.0328	7	1	1	1	1	0.608	 LINF_320029300
+GO:0003920	MF	e	GMP reductase activity        	1/86	1/2624	0.0328	5	1	1	1	1	0.608	 LINF_170014800
+GO:0004686	MF	e	elongation factor-2 kinase activity	1/86	1/2624	0.0328	8	1	1	1	1	0.608	 LINF_340026700
+GO:0008808	MF	e	cardiolipin synthase activity 	1/86	1/2624	0.0328	6	1	1	1	1	0.608	 LINF_340026200
+GO:0004806	MF	e	triglyceride lipase activity  	1/86	1/2624	0.0328	5	1	1	1	1	0.608	 LINF_130007000
+GO:0071889	MF	e	14-3-3 protein binding        	1/86	1/2624	0.0328	3	1	1	1	1	0.608	 LINF_090011100
+GO:0004694	MF	e	eukaryotic translation initiation factor 2alpha kinase activity	1/86	1/2624	0.0328	7	1	1	1	1	0.608	 LINF_340026700
+GO:0004161	MF	e	dimethylallyltranstransferase activity	1/86	1/2624	0.0328	5	1	1	1	1	0.608	 LINF_220019700
+GO:0016661	MF	e	oxidoreductase activity, acting on other nitrogenous compounds as donors	1/86	1/2624	0.0328	3	1	1	1	1	0.608	 LINF_170014800
+GO:0008936	MF	e	nicotinamidase activity       	1/86	1/2624	0.0328	5	1	1	1	1	0.608	 LINF_010009600
+GO:0004674	MF	e	protein serine/threonine kinase activity	2/86	10/2624	0.0403	6	2	1	1	1	0.728	LINF_210006700, LINF_340026700
+GO:0016740	MF	e	transferase activity          	9/86	139/2624	0.0444	2	9	1	1	1	0.782	LINF_120006700, LINF_140012400, LINF_140012800, LINF_210006700, LINF_220019700, LINF_270022400, LINF_290020900, LINF_340026200, LINF_340026700
