@@ -1,14 +1,16 @@
 ---
 title: "R Notebook"
 output:
-    html_notebook:
-        toc: true
+  html_notebook:
+    toc: true
+editor_options:
+  chunk_output_type: console
 ---
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-```{r Loading packages 1, message=FALSE, warning=FALSE}
+```{r Loading packages 1, message=FALSE, warning=FALSE, console = True}
 if (!require(BiocManager)) install.packages("BiocManager")  # Install BiocManager
 
 # Define a function to install a package if it is not installed
@@ -25,4 +27,14 @@ if (!require(dplyr)) installed.packages("dplyr")
 installifnot("ggbio")
 installifnot("Biostrings")
 installifnot("GenomicRanges")
+```
+```{r Loading packages 2, message=FALSE, warning=FALSE}
+require(ggbio)
+require(ggplot2)
+require(Biostrings)
+require(GenomicRanges)
+require(dplyr)
+```
+```{r console=T}
+1+2
 ```
