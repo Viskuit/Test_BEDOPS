@@ -1,0 +1,28 @@
+---
+title: "R Notebook"
+output:
+    html_notebook:
+        toc: true
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r Loading packages 1, message=FALSE, warning=FALSE}
+if (!require(BiocManager)) install.packages("BiocManager")  # Install BiocManager
+
+# Define a function to install a package if it is not installed
+installifnot <- function (pkg){
+  if (!require(pkg, character.only=T)){
+    BiocManager::install(pkg)
+  }
+}
+# Install packages
+if (!(require(ggplot2))) installed.packages("ggplot2")
+if (!require(dplyr)) installed.packages("dplyr")
+
+# BiocManager packages
+installifnot("ggbio")
+installifnot("Biostrings")
+installifnot("GenomicRanges")
+```
