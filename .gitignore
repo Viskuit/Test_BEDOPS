@@ -3,3 +3,4 @@
 .idea/
 __pychache__/
 *.fai
+*.ipynb
