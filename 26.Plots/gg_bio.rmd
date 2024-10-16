@@ -10,24 +10,27 @@ editor_options:
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 ```{r Loading packages 1, message=FALSE, warning=FALSE, console = True}
 if (!require(BiocManager)) install.packages("BiocManager")  # Install BiocManager
 
 # Define a function to install a package if it is not installed
 installifnot <- function (pkg){
-  if (!require(pkg, character.only=T)){
+if (!require(pkg, character.only=T)){
     BiocManager::install(pkg)
-  }
+}
 }
 # Install packages
 if (!(require(ggplot2))) installed.packages("ggplot2")
 if (!require(dplyr)) installed.packages("dplyr")
 
 # BiocManager packages
-installifnot("ggbio")
-installifnot("Biostrings")
 installifnot("GenomicRanges")
+installifnot("Biostrings")
+installifnot("ggbio")
+
 ```
+
 ```{r Loading packages 2, message=FALSE, warning=FALSE}
 require(ggbio)
 require(ggplot2)
@@ -37,4 +40,58 @@ require(dplyr)
 ```
 ```{r console=T}
 1+2
+```
+
+
+# Load data
+```{r loading data}
+chr_len <- read.csv('./data_ggbio/0.L_infantum_seq_lengths.csv', sep=',', header = TRUE)
+sider_elems <- read.csv('./data_ggbio/positive_data_named.csv', sep = ',', header = TRUE)
+```
+
+# Prepare and plot data
+
+First we need to prepare the data to be plotted. We will use the `GenomicRanges` package to prepare the data. Then we will use the `ggbio` package to plot the data.
+
+## Preparing `seqinfo` object
+
+This file has the chromosome names and lengths. We will use this information to create a `seqinfo` object that will be used to plot the data.
+
+```{r seqinfo object}
+seq_info <- Seqinfo(
+  seqnames = chr_len$seq_name,
+  seqlengths = chr_len$seq_length,
+  isCircular = rep(FALSE, nrow(chr_len)),
+  genome = rep("Linf", nrow(chr_len))
+  )
+```
+
+```{r plotting}
+main_plot <- GRanges(
+  seqnames = Rle(sider_elems$sseqid, rep(1, nrow(sider_elems))),
+  ranges = IRanges(
+    start = sider_elems$sstart,
+    end = sider_elems$send
+  ),
+  strand = rep('*', nrow(sider_elems))
+)
+
+seqinfo(main_plot) <- seq_info
+
+p1 <- main_plot
+
+png('./test.png', width = 1920, height = 1080, res=100)
+
+p1_plot <- autoplot(p1, layout = 'karyogram', alpha=0.5) +
+        labs(title = bquote(~ italic('L. infantum') ~ ' JPCM5'),
+             subtitle = 'Sider Repetitive Elements',
+             caption = 'CBM-CSIC'
+        ) +
+        theme(
+          plot.title = element_text(hjust=0.5),
+          plot.subtitle = element_text(hjust=0.5)
+        )
+
+print(p1_plot)
+dev.off()
 ```
